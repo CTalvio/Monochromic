@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {
+  font-family: 'Quicksand', sans-serif;
+}
+
+/*Blur backdrops, feel free to edit the intensity of the blur/saturation/dimming*/
+.backdropImage {
+  filter: blur(80px) saturate(200%) contrast(160%) brightness(25%);
+}
+.backgroundContainer.withBackdrop {
+  background-color: rgba(0,0,0,0);
+}
+
+/*Shrink and square (or round) cast thumnails*/
+@media all and (min-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.3vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.4vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .card.overflowPortraitCard {
+    width: 7.6vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .card.overflowPortraitCard {
+    width: 9.3vw; !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .card.overflowPortraitCard {
+    width: 10.5vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .card.overflowPortraitCard {
+    width: 15vw !important;
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .card.overflowPortraitCard {
+    width: 20.1vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .card.overflowPortraitCard {
+    width: 31.2vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (max-width: 25em){
+  #castContent .card.overflowPortraitCard {
+    width: 40vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+.cardPadder {
+  background-color: #0000 !important; box-shadow: none !important;
+}
+
+/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
+#castContent .cardOverlayContainer.itemAction,
+#castContent .cardImageContainer {
+  border-radius: 6px !important;
+}
+
+@media all and (min-width: 131.25em){
+  #castContent .cardScalable {
+    width: calc(6.3vw - 1.2em) !important; 
+    height: calc(6.3vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .cardScalable {
+    width:  calc(6.4vw - 1.2em) !important; 
+    height: calc(6.4vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .cardScalable {
+    width:  calc(7.6vw - 1.2em) !important; 
+    height: calc(7.6vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .cardScalable {
+    width:  calc(9.3vw - 1.2em) !important; 
+    height: calc(9.3vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .cardScalable {
+    width:  calc(10.5vw - 1.2em) !important; 
+    height: calc(10.5vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .cardScalable {
+    width:  calc(15vw - 1.2em) !important; 
+    height: calc(15vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .cardScalable {
+    width:  calc(20.1vw - 1.2em) !important; 
+    height: calc(20.1vw - 1.2em) !important;
+  }
+}
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .cardScalable {
+    width:  calc(31.2vw - 1.2em) !important; 
+    height: calc(31.2vw - 1.2em) !important;
+  }
+}
+@media all and (max-width: 25em){
+  #castContent .cardScalable {
+    width:  calc(40vw - 1.2em) !important;
+    height: calc(40vw - 1.2em) !important;
+  }
+}
+
+/*Themeing for the dashboard*/
+.paperList, .visualCardBox {
+  background-color: rgba(0, 0, 0, 0.5); border-radius: 6px;
+}
+.listItemIcon {b
+  order-radius: 6px !important;
+}
+.listItem-border {
+  border-color: rgba(255, 255, 255, 0) !important; 
+  border-radius: 6px;
+}
+.backgroundContainer {
+  background-color: #101010;
+}
+.raised {
+  background: #00a4dc;
+}
+fieldset {
+  border: 1px solid rgba(40, 40, 40, 0.8); 
+  border-radius: 6px;
+}
+
+/*Tweak series/movie/album title screen*/
+.detailSectionContent {
+  max-width: 66em;
+}
+.trackSelections {
+  max-width: 22em;
+}
+.detailLogo {
+  display: none;
+}
+.detailPagePrimaryContainer {
+  background: rgba(0,0,0,0) !important;
+}
+@media all and (min-width: 100em){
+  .itemBackdrop::after {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  .itemBackdrop {
+    height: 23vh !important; 
+    background-image: none !important;
+  }
+}
+@media all and (min-width: 32em) and (max-width: 100em){
+  .itemBackdrop::after {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+  .itemBackdrop {
+    height: 12em !important; 
+    background-image: none !important;
+  }
+}
+@media all and (max-width: 32em) {
+  .itemBackdrop {
+    width: 100vw!important; 
+    height: 100vh!important; 
+    position: fixed;
+  }
+  .detailPageWrapperContainer {
+    margin-top: 5em;
+  }
+  .itemBackdrop {
+    filter: blur(70px) saturate(200%) contrast(160%) brightness(25%);
+  }
+}
+
+/*Theme some dialogues*/
+.dialog {background-color: rgba(0, 0, 0, 0.8);}
+.actionSheetMenuItem:hover {background-color: rgba(0, 164, 220, 0.2);}
+.mainDrawer {background-color: rgba(0, 0, 0, 0.8);}
+.navMenuOption:hover {background: rgba(0, 164, 220, 0.2);}
+.formDialogHeader, .formDialogFooter {background-color: #101010 !important;}
+
+/*Tweak entry fields*/
+.selectContainer {margin-right: 1em !important;}
+.checkboxOutline {border-radius: 6px; background-color: rgba(0, 0, 0, 0.2);}
+.emby-input, .emby-textarea, .emby-select-withcolor 
+{background: rgba(0, 0, 0, 0.2); border: 0.01em solid rgba(255, 255, 255, 0.22); border-radius: 6px;}
+.emby-input:focus, .emby-textarea:focus, .emby-select-withcolor:focus 
+{background: rgba(0, 0, 0, 0.5) !important; border: 0.01em solid #00a4dcc2 !important;}
+
+/*Size episode preview images in a more compact way*/
+.listItemImageButton-icon {
+  padding: 0;
+}
+.secondary.listItem-overview.listItemBodyText {
+  height: 61px; 
+  margin: 0;
+}
+.listItemImageButton {
+  margin: auto; 
+  font-size: 1.6em !important;
+}
+@media all and (min-width: 100em){
+  .listItemImage.listItemImage-large.itemAction.lazy {
+    height: 110px;
+  }
+  .listItem-content {
+    height: 115px;
+  }
+  .secondary.listItem-overview.listItemBodyText {
+    height: 4em; 
+    margin: 0;
+  }
+}
+@media all and (max-width: 100em){
+  .listItemImage.listItemImage-large.itemAction.lazy {height: 80px;}
+  .listItem-content {height: 85px;}
+  .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
+}
+
+/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background:none; 
+  background-color:rgba(0, 0, 0, 0);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background:none; 
+  background-color: rgba(0, 0, 0, 0);
+}
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {m
+  argin-top: auto; 
+  margin-bottom: auto;
+}
+.emby-tab-button {
+  padding: 1.75em 1.7em;
+}
+
+/*Narrow the login form, size according to display size (bigger on mobile)*/
+#loginPage .readOnlyContent,
+#loginPage form {
+  max-width: 22em;
+}
+
+/*Hide "please login" text, margin is to prevent login form moving too far up*/
+#loginPage h1 {
+  display: none
+}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 50px
+}
+
+/*Hide "manual" and "forgot" buttons*/
+#loginPage .raised.cancel.block.btnManual.emby-button {
+  display: none
+}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+  display: none
+}
+
+/*Login background*/
+#loginPage {
+  background: url(https://i.imgur.com/9vL4iNf.png) !important; 
+  background-size: cover !important;
+}
+
+/*Make watched icon and other things dark and transparent*/
+.innerCardFooter, 
+.countIndicator, 
+.playedIndicator {
+  background: rgba(0,0,0,0.4); 
+  box-shadow: none;
+}
+.countIndicator {
+  box-shadow: none;
+}
+
+/*Rounded corners on pretty much everything*/
+.cardContent-button, 
+.cardContent-shadow, 
+.itemDetailImage, 
+.cardOverlayButton-hover, 
+.cardOverlayContainer,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog,
+.countIndicator,
+.playedIndicator,
+.listItem-border {
+  border-radius: 6px !important;
+}
+.osdPoster img {
+  border-radius: 6px; border: none;
+}
+
+/*Modified progress bar, play and item menu buttons*/
+.itemProgressBar {
+  height: 3px; 
+  background: rgba(0,0,0,0);
+}
+.cardIndicators {
+  right: 0.3em; 
+  top: 0.3em;
+}
+.paper-icon-button-light:hover {
+  background-color: rgba(0,0,0,0);
+}
+@media all and (min-width: 70em){
+  .cardOverlayFab-primary {
+    background-color: #00000000;
+  }
+  .cardOverlayButtonIcon {
+    background-color: #00000000 !important;
+  }
+  .cardOverlayContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+@media all and (max-width: 70em){
+  .cardOverlayButtonIcon {
+    border-radius: 5px !important;
+  }
+  .cardOverlayButtonIcon {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .cardOverlayButton {
+    padding: 0.3em;
+  }
+}
+
+/*Color theming*/
+.starIcon {
+  color: white;
+}
+.mdl-slider-background-lower {
+  background-color: rgb(255, 255, 255);
+}
+.mdl-slider::-moz-range-thumb {
+  background: rgb(255, 255, 255); border-radius: 5px;
+}
+.iconOsdProgressInner {
+  background: rgb(255, 255, 255);
+}
+.itemProgressBarForeground {
+  background: rgba(255, 255, 255, 0.6) !important;
+}
+.navMenuOption-selected {
+  background: #101010 !important;
+}
+.emby-checkbox:checked + span + .checkboxOutline {
+  background-color: rgba(20, 20, 20, 0.8) !important;
+}
+
+.paper-icon-button-light:hover,
+.button-flat:hover,
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating,
+.paper-icon-button-light:hover:not(:disabled),
+.emby-tab-button:hover,
+.selectLabelFocused,
+.inputLabelFocused,
+.textareaLabelFocused {
+  color: rgba(120, 120, 120, 0.6) !important;
+}
+
+.listItemIcon {
+  background-color: rgba(0,0,0,0) !important;
+}
+.raised {
+  background: rgba(40, 40, 40, 0.8) !important;
+}
+
+.paper-icon-button-light:hover,
+.paper-icon-button-light:hover {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.navMenuOption:hover,
+.actionSheetMenuItem:hover {
+  background-color: rgba(80, 80, 80, 0.8) !important;
+}
+
+.emby-textarea:focus,
+.emby-checkbox:checked + span + .checkboxOutline,
+.emby-select-withcolor:focus,
+.emby-input:focus {
+  border: 0.01em solid rgba(40, 40, 40, 0.8) !important;
+}
+
+.mdl-spinner__layer-1 {border-color: rgba(255, 255, 255, 1);}
+.mdl-spinner__layer-2 {border-color: rgba(128, 128, 128, 1);}
+.mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
+.mdl-spinner__layer-4 {border-color: rgba(0, 0, 0, 1);}
