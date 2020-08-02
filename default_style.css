@@ -2,9 +2,28 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+.cardBox-bottompadded {
+    margin-bottom: 0.6em !important;
+}
+.itemsContainer > .card > .cardBox {
+    margin-right: 0.8em;
+}
+.raised.homeLibraryButton {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+.raised.homeLibraryButton:hover {filter: brightness(30%); transition: filter 0.2s}
+.raised.homeLibraryButton {transition: filter 0.2s}
+.homeLibraryButton {
+    min-width: 12em;
+    margin: 0.4em;
+}
+
+.listItemImage.listItemImage-large.itemAction.lazy:hover {filter: brightness(30%); transition: filter 0.2s}
+.listItemImage.listItemImage-large.itemAction.lazy {transition: filter 0.2s}
+
 /*Blur backdrops, feel free to edit the intensity of the blur/saturation/dimming*/
 .backdropImage {
-  filter: blur(80px) saturate(200%) contrast(160%) brightness(25%);
+  filter: blur(60px) saturate(200%) contrast(160%) brightness(25%);
 }
 .backgroundContainer.withBackdrop {
   background-color: rgba(0,0,0,0);
@@ -78,79 +97,57 @@
 
 @media all and (min-width: 131.25em){
   #castContent .cardScalable {
-    width: calc(6.3vw - 1.2em) !important; 
-    height: calc(6.3vw - 1.2em) !important;
+    width: calc(6.3vw - 0.6em) !important; 
+    height: calc(6.3vw - 0.6em) !important;
   }
 }
 @media all and (min-width: 120em) and (max-width: 131.25em){
   #castContent .cardScalable {
-    width:  calc(6.4vw - 1.2em) !important; 
-    height: calc(6.4vw - 1.2em) !important;
+    width:  calc(6.4vw - 0.6em) !important; 
+    height: calc(6.4vw - 0.6em) !important;
   }
 }
 @media all and (min-width: 100em) and (max-width: 120em){
   #castContent .cardScalable {
-    width:  calc(7.6vw - 1.2em) !important; 
-    height: calc(7.6vw - 1.2em) !important;
+    width:  calc(7.6vw - 0.6em) !important; 
+    height: calc(7.6vw - 0.6em) !important;
   }
 }
 @media all and (min-width: 87.5em) and (max-width: 100em){
   #castContent .cardScalable {
-    width:  calc(9.3vw - 1.2em) !important; 
-    height: calc(9.3vw - 1.2em) !important;
+    width:  calc(9.3vw - 0.6em) !important; 
+    height: calc(9.3vw - 0.6em) !important;
   }
 }
 @media all and (min-width: 75em) and (max-width: 87.5em){
   #castContent .cardScalable {
-    width:  calc(10.5vw - 1.2em) !important; 
-    height: calc(10.5vw - 1.2em) !important;
+    width:  calc(10.5vw - 0.6em) !important; 
+    height: calc(10.5vw - 0.6em) !important;
   }
 }
 @media all and (min-width: 50em) and (max-width: 75em){
   #castContent .cardScalable {
-    width:  calc(15vw - 1.2em) !important; 
-    height: calc(15vw - 1.2em) !important;
+    width:  calc(15vw - 0.6em) !important; 
+    height: calc(15vw - 0.6em) !important;
   }
 }
 @media all and (min-width: 43.75em) and (max-width: 50em){
   #castContent .cardScalable {
-    width:  calc(20.1vw - 1.2em) !important; 
-    height: calc(20.1vw - 1.2em) !important;
+    width:  calc(20.1vw - 0.6em) !important; 
+    height: calc(20.1vw - 0.6em) !important;
   }
 }
 @media all and (min-width: 25em) and (max-width: 43.75em){
   #castContent .cardScalable {
-    width:  calc(31.2vw - 1.2em) !important; 
-    height: calc(31.2vw - 1.2em) !important;
+    width:  calc(31.2vw - 0.6em) !important; 
+    height: calc(31.2vw - 0.6em) !important;
   }
 }
 @media all and (max-width: 25em){
   #castContent .cardScalable {
-    width:  calc(40vw - 1.2em) !important;
-    height: calc(40vw - 1.2em) !important;
+    width:  calc(40vw - 0.6em) !important;
+    height: calc(40vw - 0.6em) !important;
   }
-}
-
-/*Themeing for the dashboard*/
-.paperList, .visualCardBox {
-  background-color: rgba(0, 0, 0, 0.5); border-radius: 6px;
-}
-.listItemIcon {b
-  order-radius: 6px !important;
-}
-.listItem-border {
-  border-color: rgba(255, 255, 255, 0) !important; 
-  border-radius: 6px;
-}
-.backgroundContainer {
-  background-color: #101010;
-}
-.raised {
-  background: #00a4dc;
-}
-fieldset {
-  border: 1px solid rgba(40, 40, 40, 0.8); 
-  border-radius: 6px;
 }
 
 /*Tweak series/movie/album title screen*/
@@ -243,14 +240,27 @@ fieldset {
   .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
 }
 
-/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
-  background:none; 
-  background-color:rgba(0, 0, 0, 0);
+/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size
+@media all and (min-width: 100em){
+  .flex.align-items-center.flex-grow.headerTop {
+    margin-top: -60px;
+  }
+  .headerTabs {
+    position: absolute;
+    margin-top: 0px;
+  }
 }
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
-  background:none; 
-  background-color: rgba(0, 0, 0, 0);
+.emby-tab-button {
+  padding: 1.4em;
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 27%, rgba(0, 0, 0, 0.8) 100%) !important;
+  height: 135px;
+  background-color:rgba(0, 0, 0, 0);
+}*/
+.skinHeader {
+  background: none !important; 
+  background-color: rgba(0, 0, 0, 0) !important;
 }
 .headerTabs.sectionTabs {
   text-size-adjust: 110%;
@@ -304,6 +314,8 @@ fieldset {
 }
 
 /*Rounded corners on pretty much everything*/
+.multiSelectCheckboxOutline,
+.itemSelectionPanel,
 .cardContent-button, 
 .cardContent-shadow, 
 .itemDetailImage, 
@@ -364,6 +376,23 @@ fieldset {
   }
 }
 
+/*Themeing for the dashboard*/
+.paperList, 
+.visualCardBox {
+  background-color: rgba(0, 0, 0, 0.5); border-radius: 6px;
+}
+.listItemIcon {
+  border-radius: 6px !important;
+}
+.listItem-border {
+  border-color: rgba(255, 255, 255, 0) !important; 
+  border-radius: 6px;
+}
+fieldset {
+  border: 1px solid rgba(40, 40, 40, 0.8); 
+  border-radius: 6px;
+}
+
 /*Color theming*/
 .starIcon {
   color: white;
@@ -380,7 +409,9 @@ fieldset {
 .itemProgressBarForeground {
   background: rgba(255, 255, 255, 0.6) !important;
 }
-.navMenuOption-selected {
+/*.backgroundContainer,*/
+.navMenuOption-selected,
+.selectionCommandsPanel {
   background: #101010 !important;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
@@ -417,10 +448,14 @@ fieldset {
 }
 
 .emby-textarea:focus,
-.emby-checkbox:checked + span + .checkboxOutline,
+.checkboxOutline,
 .emby-select-withcolor:focus,
-.emby-input:focus {
+.emby-input:focus,
+.itemSelectionPanel {
   border: 0.01em solid rgba(40, 40, 40, 0.8) !important;
+}
+.emby-checkbox:checked + span + .checkboxOutline {
+  border: 0.01em solid rgba(255, 255, 255, 0.22) !important;
 }
 
 .mdl-spinner__layer-1 {border-color: rgba(255, 255, 255, 1);}
