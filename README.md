@@ -12,3 +12,9 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 - Strives to theme every element
 - More compact
 - Smaller and squared cast info
+
+## Screenshots
+
+![one](screenshots/1.png)
+![two](screenshots/2.png)
+![three](screenshots/3.png)
