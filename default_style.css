@@ -2,6 +2,7 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+/*Narrow margins, theme main page*/
 .cardBox-bottompadded {
     margin-bottom: 0.6em !important;
 }
@@ -17,9 +18,6 @@
     min-width: 12em;
     margin: 0.4em;
 }
-
-.listItemImage.listItemImage-large.itemAction.lazy:hover {filter: brightness(30%); transition: filter 0.2s}
-.listItemImage.listItemImage-large.itemAction.lazy {transition: filter 0.2s}
 
 /*Blur backdrops, feel free to edit the intensity of the blur/saturation/dimming*/
 .backdropImage {
@@ -196,21 +194,54 @@
 }
 
 /*Theme some dialogues*/
-.dialog {background-color: rgba(0, 0, 0, 0.8);}
-.actionSheetMenuItem:hover {background-color: rgba(0, 164, 220, 0.2);}
-.mainDrawer {background-color: rgba(0, 0, 0, 0.8);}
-.navMenuOption:hover {background: rgba(0, 164, 220, 0.2);}
-.formDialogHeader, .formDialogFooter {background-color: #101010 !important;}
+.dialog {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.actionSheetMenuItem:hover {
+  background-color: rgba(0, 164, 220, 0.2);
+}
+.mainDrawer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.navMenuOption:hover {
+  background: rgba(0, 164, 220, 0.2);
+}
+.formDialogHeader, .formDialogFooter {
+  background-color: #101010 !important;
+}
+.formDialogHeader.formDialogHeader-clear.justify-content-center,
+.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex {
+  background-color: #0000 !important;
+}
 
 /*Tweak entry fields*/
-.selectContainer {margin-right: 1em !important;}
-.checkboxOutline {border-radius: 6px; background-color: rgba(0, 0, 0, 0.2);}
-.emby-input, .emby-textarea, .emby-select-withcolor 
-{background: rgba(0, 0, 0, 0.2); border: 0.01em solid rgba(255, 255, 255, 0.22); border-radius: 6px;}
-.emby-input:focus, .emby-textarea:focus, .emby-select-withcolor:focus 
-{background: rgba(0, 0, 0, 0.5) !important; border: 0.01em solid #00a4dcc2 !important;}
+.selectContainer {
+  margin-right: 1em !important;
+}
+.checkboxOutline {
+  border-radius: 6px; background-color: rgba(0, 0, 0, 0.2);
+}
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  background: rgba(0, 0, 0, 0.2); 
+  border: 0.01em solid rgba(255, 255, 255, 0.22); 
+  border-radius: 6px;
+}
+.emby-input:focus, 
+.emby-textarea:focus, 
+.emby-select-withcolor:focus {
+  background: rgba(0, 0, 0, 0.5) !important; 
+  border: 0.01em solid #00a4dcc2 !important;
+}
 
 /*Size episode preview images in a more compact way*/
+.listItemImage.listItemImage-large.itemAction.lazy:hover {
+  filter: brightness(30%); transition: filter 0.2s
+}
+.listItemImage.listItemImage-large.itemAction.lazy {
+  transition: filter 0.2s
+}
 .listItemImageButton-icon {
   padding: 0;
 }
@@ -314,13 +345,23 @@
 }
 
 /*Rounded corners on pretty much everything*/
+.formDialogHeader {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.formDialogFooter {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.cardOverlayContainer {
+	border-radius: 4.8px !important;
+}
 .multiSelectCheckboxOutline,
 .itemSelectionPanel,
 .cardContent-button, 
 .cardContent-shadow, 
 .itemDetailImage, 
-.cardOverlayButton-hover, 
-.cardOverlayContainer,
+.cardOverlayButton-hover,
 .cardImageContainer,
 .cardPadder,
 .listItemImage,
@@ -462,3 +503,11 @@ fieldset {
 .mdl-spinner__layer-2 {border-color: rgba(128, 128, 128, 1);}
 .mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
 .mdl-spinner__layer-4 {border-color: rgba(0, 0, 0, 1);}
+
+.mainDrawer-scrollContainer,
+.formDialogContent.smoothScrollY {
+  scrollbar-color: #101010 #0000 !important;
+}
+.layout-desktop {
+  scrollbar-color: rgba(255, 255, 255, 0.22) #0000;
+}
