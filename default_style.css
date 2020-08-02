@@ -356,6 +356,8 @@
 .cardOverlayContainer {
 	border-radius: 4.8px !important;
 }
+.fab,
+.raised,
 .multiSelectCheckboxOutline,
 .itemSelectionPanel,
 .cardContent-button, 
@@ -375,6 +377,7 @@
 .dialog,
 .countIndicator,
 .playedIndicator,
+.listItemIcon,
 .listItem-border {
   border-radius: 6px !important;
 }
@@ -384,7 +387,7 @@
 
 /*Modified progress bar, play and item menu buttons*/
 .itemProgressBar {
-  height: 3px; 
+  height: 3px;
   background: rgba(0,0,0,0);
 }
 .cardIndicators {
@@ -422,12 +425,8 @@
 .visualCardBox {
   background-color: rgba(0, 0, 0, 0.5); border-radius: 6px;
 }
-.listItemIcon {
-  border-radius: 6px !important;
-}
 .listItem-border {
   border-color: rgba(255, 255, 255, 0) !important; 
-  border-radius: 6px;
 }
 fieldset {
   border: 1px solid rgba(40, 40, 40, 0.8); 
@@ -474,7 +473,7 @@ fieldset {
 .listItemIcon {
   background-color: rgba(0,0,0,0) !important;
 }
-.raised {
+.raised, .fab {
   background: rgba(40, 40, 40, 0.8) !important;
 }
 
