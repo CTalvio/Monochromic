@@ -271,7 +271,8 @@
   .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
 }
 
-/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size
+/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size 
+the commented code is for WIP gradient to allow taskbar visibility during scrolling
 @media all and (min-width: 100em){
   .flex.align-items-center.flex-grow.headerTop {
     margin-top: -60px;
@@ -378,7 +379,8 @@
 .countIndicator,
 .playedIndicator,
 .listItemIcon,
-.listItem-border {
+.listItem-border,
+.button-flat{
   border-radius: 6px !important;
 }
 .osdPoster img {
@@ -418,6 +420,11 @@
   .cardOverlayButton {
     padding: 0.3em;
   }
+}
+.button-flat:hover {background: rgba(0,0,0,0.4);}
+.button-flat {
+  padding: .5em !important;
+  margin: .2em !important;
 }
 
 /*Themeing for the dashboard*/
