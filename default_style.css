@@ -376,7 +376,10 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .listItemIcon,
 .listItem-border,
 .button-flat,
-.visualCardBox {
+.visualCardBox,
+.checkboxOutline,
+.emby-select-withcolor,
+.cardOverlayButtonIcon {
   border-radius: 0.4em !important;
 }
 .osdPoster img {
