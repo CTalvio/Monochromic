@@ -13,11 +13,6 @@
 .itemProgressBarForeground {
   background: #00a4dc !important;
 }
-/*.backgroundContainer,*/
-.navMenuOption-selected,
-.selectionCommandsPanel {
-  background: #101010 !important;
-}
 
 .paper-icon-button-light:hover,
 .raised.homeLibraryButton:hover,
