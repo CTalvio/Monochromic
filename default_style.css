@@ -215,14 +215,13 @@
   margin-right: 1em !important;
 }
 .checkboxOutline {
-  border-radius: 0.4em; background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 .emby-input,
 .emby-textarea,
 .emby-select-withcolor {
   background: rgba(0, 0, 0, 0.2); 
-  border: 0.01em solid rgba(255, 255, 255, 0.22); 
-  border-radius: 0.4em;
+  border: 0.01em solid rgba(255, 255, 255, 0.22);
 }
 .emby-input:focus, 
 .emby-textarea:focus, 
@@ -411,9 +410,6 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
   }
 }
 @media all and (max-width: 70em){
-  .cardOverlayButtonIcon {
-    border-radius: 5px !important;
-  }
   .cardOverlayButtonIcon {
     background-color: rgba(0, 0, 0, 0.5) !important;
   }
