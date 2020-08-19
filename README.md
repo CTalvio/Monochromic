@@ -11,7 +11,7 @@ NOTE: This may not work when using reverse proxy, check below the screenshots fo
 ## Features
 - Uses the same font as the JF logo everywhere
 - Blurred backdrops
-- Squared aesthetic with rounded corners
+- Squared aesthetic with rounded corners (optionally corners so sharp you might get an eye poked out)
 - Works well on mobile
 - Strives to theme every element
 - More compact
