@@ -473,8 +473,14 @@ fieldset {
 .emby-tab-button:hover,
 .selectLabelFocused,
 .inputLabelFocused,
-.textareaLabelFocused {
+.textareaLabelFocused,
+.button-link {
   color: rgba(120, 120, 120, 0.6) !important;
+}
+
+.cardImage,
+.sessionNowPlayingInnerContent {
+    background-color: #000;
 }
 
 .listItemIcon {
