@@ -517,3 +517,19 @@ fieldset {
 .layout-desktop {
   scrollbar-color: rgba(255, 255, 255, 0.22) #0000;
 }
+
+.defaultCardBackground1 {
+	background-color: #0d0d0d80)
+}
+.defaultCardBackground2 {
+	background-color: #4d4d4d80)
+}
+.defaultCardBackground3 {
+	background-color: #1a1a1a80)
+}
+.defaultCardBackground4 {
+	background-color: #33333380)
+}
+.defaultCardBackground5 {
+	background-color: #66666680)
+}
