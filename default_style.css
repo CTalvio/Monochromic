@@ -12,7 +12,7 @@
 .raised.homeLibraryButton {
     background: rgba(0, 0, 0, 0.3) !important;
 }
-.raised.homeLibraryButton:hover {filter: brightness(30%); transition: filter 0.2s}
+.raised.homeLibraryButton:hover {transition: filter 0.2s}
 .raised.homeLibraryButton {transition: filter 0.2s}
 .homeLibraryButton {
     min-width: 12em;
@@ -465,6 +465,7 @@ fieldset {
 }
 
 .paper-icon-button-light:hover,
+.raised.homeLibraryButton:hover,
 .button-flat:hover,
 .playstatebutton-icon-played,
 .ratingbutton-icon-withrating,
