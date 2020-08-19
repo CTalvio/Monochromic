@@ -36,7 +36,10 @@
 .listItemIcon,
 .listItem-border,
 .button-flat,
-.visualCardBox {
+.visualCardBox,
+.checkboxOutline,
+.emby-select-withcolor,
+.cardOverlayButtonIcon {
   border-radius: 0em !important;
 }
 .osdPoster img {
