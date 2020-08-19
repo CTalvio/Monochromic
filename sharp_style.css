@@ -42,3 +42,9 @@
 .osdPoster img {
   border-radius: 0em; border: none;
 }
+.mdl-slider::-moz-range-thumb {
+  border-radius: 0em;
+}
+fieldset {
+  border-radius: 0em;
+}
