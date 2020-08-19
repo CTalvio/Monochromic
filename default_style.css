@@ -383,6 +383,9 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .osdPoster img {
   border-radius: 0.4em; border: none;
 }
+.mdl-slider::-moz-range-thumb {
+  border-radius: 0.4em;
+}
 
 /*Modified progress bar, play and item menu buttons*/
 .itemProgressBar {
@@ -445,7 +448,7 @@ fieldset {
   background-color: rgb(255, 255, 255);
 }
 .mdl-slider::-moz-range-thumb {
-  background: rgb(255, 255, 255); border-radius: 5px;
+  background: rgb(255, 255, 255);
 }
 .iconOsdProgressInner {
   background: rgb(255, 255, 255);
