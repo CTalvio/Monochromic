@@ -1,25 +1,17 @@
 .navMenuOption-selected {
-    color: #00a4dc;
+    color: var(--accent);
 }
 .mdl-slider-background-lower {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--accent);
 }
 .mdl-slider::-moz-range-thumb {
-  background: rgb(255, 255, 255);
+  background: var(--accent);
 }
 .iconOsdProgressInner {
-  background: rgb(255, 255, 255);
+  background: var(--accent);
 }
 .itemProgressBarForeground {
   background: var(--accent) !important;
-}
-/*.backgroundContainer,*/
-.navMenuOption-selected,
-.selectionCommandsPanel {
-  background: #101010 !important;
-}
-.emby-checkbox:checked + span + .checkboxOutline {
-  background-color: rgba(20, 20, 20, 0.8) !important;
 }
 
 .paper-icon-button-light:hover,
@@ -35,25 +27,17 @@
   color: var(--accent) !important;
 }
 
-.paper-icon-button-light:hover,
-.paper-icon-button-light:hover {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
 .navMenuOption:hover,
 .actionSheetMenuItem:hover {
   background-color: var(--hoveraccent) !important;
 }
 
+.emby-checkbox:checked + span + .checkboxOutline,
 .emby-textarea:focus,
-.checkboxOutline,
 .emby-select-withcolor:focus,
 .emby-input:focus,
 .itemSelectionPanel {
   border: 0.01em solid var(--hoveraccent) !important;
-}
-.emby-checkbox:checked + span + .checkboxOutline {
-  border: 0.01em solid var(--accent) !important;
 }
 
 .mdl-spinner__layer-1 {border-color: var(--accent);}
