@@ -23,7 +23,8 @@
 .emby-tab-button:hover,
 .selectLabelFocused,
 .inputLabelFocused,
-.textareaLabelFocused {
+.textareaLabelFocused,
+.button-link {
   color: var(--accent) !important;
 }
 
