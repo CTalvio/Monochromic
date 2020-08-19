@@ -1,5 +1,3 @@
-@import url('https://ctalvio.github.io/Monochromic/sharp_style.css');
-
 /*Color theming*/
 .starIcon {
   color: white;
@@ -26,6 +24,7 @@
 }
 
 .paper-icon-button-light:hover,
+.raised.homeLibraryButton:hover,
 .button-flat:hover,
 .playstatebutton-icon-played,
 .ratingbutton-icon-withrating,
@@ -51,7 +50,7 @@
 
 .navMenuOption:hover,
 .actionSheetMenuItem:hover {
-  background-color: rgba(80, 80, 80, 0.8) !important;
+  background-color: #00a4dc80 !important;
 }
 
 .emby-textarea:focus,
@@ -59,13 +58,13 @@
 .emby-select-withcolor:focus,
 .emby-input:focus,
 .itemSelectionPanel {
-  border: 0.01em solid rgba(40, 40, 40, 0.8) !important;
+  border: 0.01em solid #00a4dc80 !important;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
-  border: 0.01em solid rgba(255, 255, 255, 0.22) !important;
+  border: 0.01em solid #00a4dc !important;
 }
 
-.mdl-spinner__layer-1 {border-color: rgba(255, 255, 255, 1);}
+.mdl-spinner__layer-1 {border-color: #00a4dc;}
 .mdl-spinner__layer-2 {border-color: rgba(128, 128, 128, 1);}
 .mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
 .mdl-spinner__layer-4 {border-color: rgba(0, 0, 0, 1);}
