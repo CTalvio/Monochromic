@@ -23,8 +23,7 @@
 .emby-tab-button:hover,
 .selectLabelFocused,
 .inputLabelFocused,
-.textareaLabelFocused,
-.button-link {
+.textareaLabelFocused {
   color: #00a4dc !important;
 }
 
