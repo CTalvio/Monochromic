@@ -39,7 +39,8 @@
 .visualCardBox,
 .checkboxOutline,
 .emby-select-withcolor,
-.cardOverlayButtonIcon {
+.cardOverlayButtonIcon,
+.emby-input {
   border-radius: 0em !important;
 }
 .osdPoster img {
