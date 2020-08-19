@@ -2,13 +2,13 @@
     color: #00a4dc;
 }
 .mdl-slider-background-lower {
-  background-color: rgb(255, 255, 255);
+  background-color: #00a4dc;
 }
 .mdl-slider::-moz-range-thumb {
-  background: rgb(255, 255, 255);
+  background: #00a4dc;
 }
 .iconOsdProgressInner {
-  background: rgb(255, 255, 255);
+  background: #00a4dc;
 }
 .itemProgressBarForeground {
   background: #00a4dc !important;
@@ -17,9 +17,6 @@
 .navMenuOption-selected,
 .selectionCommandsPanel {
   background: #101010 !important;
-}
-.emby-checkbox:checked + span + .checkboxOutline {
-  background-color: rgba(20, 20, 20, 0.8) !important;
 }
 
 .paper-icon-button-light:hover,
@@ -35,25 +32,17 @@
   color: #00a4dc !important;
 }
 
-.paper-icon-button-light:hover,
-.paper-icon-button-light:hover {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
 .navMenuOption:hover,
 .actionSheetMenuItem:hover {
   background-color: #00a4dc80 !important;
 }
 
+.emby-checkbox:checked + span + .checkboxOutline,
 .emby-textarea:focus,
-.checkboxOutline,
 .emby-select-withcolor:focus,
 .emby-input:focus,
 .itemSelectionPanel {
   border: 0.01em solid #00a4dc80 !important;
-}
-.emby-checkbox:checked + span + .checkboxOutline {
-  border: 0.01em solid #00a4dc !important;
 }
 
 .mdl-spinner__layer-1 {border-color: #00a4dc;}
