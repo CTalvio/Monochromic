@@ -1,0 +1,79 @@
+@import url('https://ctalvio.github.io/Monochromic/sharp_style.css');
+
+/*Color theming*/
+.starIcon {
+  color: white;
+}
+.mdl-slider-background-lower {
+  background-color: rgb(255, 255, 255);
+}
+.mdl-slider::-moz-range-thumb {
+  background: rgb(255, 255, 255);
+}
+.iconOsdProgressInner {
+  background: rgb(255, 255, 255);
+}
+.itemProgressBarForeground {
+  background: #00a4dc !important;
+}
+/*.backgroundContainer,*/
+.navMenuOption-selected,
+.selectionCommandsPanel {
+  background: #101010 !important;
+}
+.emby-checkbox:checked + span + .checkboxOutline {
+  background-color: rgba(20, 20, 20, 0.8) !important;
+}
+
+.paper-icon-button-light:hover,
+.button-flat:hover,
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating,
+.paper-icon-button-light:hover:not(:disabled),
+.emby-tab-button:hover,
+.selectLabelFocused,
+.inputLabelFocused,
+.textareaLabelFocused {
+  color: #00a4dc !important;
+}
+
+.listItemIcon {
+  background-color: rgba(0,0,0,0) !important;
+}
+.raised, .fab {
+  background: rgba(40, 40, 40, 0.8) !important;
+}
+
+.paper-icon-button-light:hover,
+.paper-icon-button-light:hover {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.navMenuOption:hover,
+.actionSheetMenuItem:hover {
+  background-color: rgba(80, 80, 80, 0.8) !important;
+}
+
+.emby-textarea:focus,
+.checkboxOutline,
+.emby-select-withcolor:focus,
+.emby-input:focus,
+.itemSelectionPanel {
+  border: 0.01em solid rgba(40, 40, 40, 0.8) !important;
+}
+.emby-checkbox:checked + span + .checkboxOutline {
+  border: 0.01em solid rgba(255, 255, 255, 0.22) !important;
+}
+
+.mdl-spinner__layer-1 {border-color: rgba(255, 255, 255, 1);}
+.mdl-spinner__layer-2 {border-color: rgba(128, 128, 128, 1);}
+.mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
+.mdl-spinner__layer-4 {border-color: rgba(0, 0, 0, 1);}
+
+.mainDrawer-scrollContainer,
+.formDialogContent.smoothScrollY {
+  scrollbar-color: #101010 #0000 !important;
+}
+.layout-desktop {
+  scrollbar-color: rgba(255, 255, 255, 0.22) #0000;
+}
