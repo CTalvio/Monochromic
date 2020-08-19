@@ -1,0 +1,44 @@
+@import url('https://ctalvio.github.io/Monochromic/default_style.css');
+
+/*Sharp corners*/
+.formDialogHeader {
+  border-top-left-radius: 0em;
+  border-top-right-radius: 0em;
+}
+.formDialogFooter {
+  border-bottom-left-radius: 0em;
+  border-bottom-right-radius: 0em;
+}
+.cardOverlayContainer {
+	border-radius: 0em !important;
+}
+.fab,
+.raised,
+.multiSelectCheckboxOutline,
+.itemSelectionPanel,
+.cardContent-button, 
+.cardContent-shadow, 
+.itemDetailImage, 
+.cardOverlayButton-hover,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog,
+.countIndicator,
+.playedIndicator,
+.listItemIcon,
+.listItem-border,
+.button-flat,
+.visualCardBox {
+  border-radius: 0em !important;
+}
+.osdPoster img {
+  border-radius: 0em; border: none;
+}
