@@ -315,10 +315,7 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
   margin-top: 50px
 }
 
-/*Hide "manual" and "forgot" buttons*/
-#loginPage .raised.cancel.block.btnManual.emby-button {
-  display: none
-}
+/*Hide "manual" and "forgot" buttons}*/
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
   display: none
 }
