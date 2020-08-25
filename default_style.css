@@ -437,6 +437,10 @@ fieldset {
 }
 
 /*Color theming*/
+.blurhash-canvas {
+	filter: opacity(60%) saturate(60%);
+}
+
 .starIcon {
   color: white;
 }
