@@ -231,8 +231,8 @@
 }
 
 /*Size episode preview images in a more compact way*/
-.listItemImage.listItemImage-large.itemAction.lazy:hover {
-  filter: brightness(30%); transition: filter 0.2s
+.listItem:hover {
+	transition: 0.2s; background: rgba(0, 0, 0, 0.4);
 }
 .listItemImage.listItemImage-large.itemAction.lazy {
   transition: filter 0.2s
