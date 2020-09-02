@@ -385,6 +385,14 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .mdl-slider::-moz-range-thumb {
   border-radius: 0.4em;
 }
+div[data-role="controlgroup"] a[data-role="button"]:first-child {
+	border-bottom-left-radius: 0.4em;
+	border-top-left-radius: 0.4em;
+}
+div[data-role="controlgroup"] a[data-role="button"]:last-child {
+	border-bottom-right-radius: 0.4em;
+	border-top-right-radius: 0.4em;
+}
 
 /*Modified progress bar, play and item menu buttons*/
 .itemProgressBar {
@@ -441,6 +449,14 @@ fieldset {
 	filter: opacity(60%) saturate(60%);
 }
 
+div[data-role="controlgroup"] a.ui-btn-active {
+	background: rgba(120, 120, 120, 0.6) !important; 
+	color: white !important;
+}
+div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
+	margin: 0 !important;
+}
+
 .starIcon {
   color: white;
 }
@@ -486,7 +502,9 @@ fieldset {
 .listItemIcon {
   background-color: rgba(0,0,0,0) !important;
 }
-.raised, .fab {
+.raised,
+.fab
+a[data-role="button"] {
   background: rgba(40, 40, 40, 0.8) !important;
 }
 
