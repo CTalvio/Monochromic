@@ -3,14 +3,11 @@
 }
 .mdl-slider-background-lower {
   background-color: var(--accent);
-}
+
+.itemProgressBarForeground,
+div[data-role="controlgroup"] a.ui-btn-active,
+.iconOsdProgressInner,
 .mdl-slider::-moz-range-thumb {
-  background: var(--accent);
-}
-.iconOsdProgressInner {
-  background: var(--accent);
-}
-.itemProgressBarForeground {
   background: var(--accent) !important;
 }
 
