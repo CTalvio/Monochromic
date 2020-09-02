@@ -47,6 +47,14 @@
 .mdl-slider::-moz-range-thumb {
   border-radius: 0em;
 }
+div[data-role="controlgroup"] a[data-role="button"]:first-child {
+	border-bottom-left-radius: 0em;
+	border-top-left-radius: 0em;
+}
+div[data-role="controlgroup"] a[data-role="button"]:last-child {
+	border-bottom-right-radius: 0em;
+	border-top-right-radius: 0em;
+}
 fieldset {
   border-radius: 0em;
 }
