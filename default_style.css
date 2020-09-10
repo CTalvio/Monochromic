@@ -48,7 +48,7 @@
 }
 @media all and (min-width: 87.5em) and (max-width: 100em){
   #castContent .card.overflowPortraitCard {
-    width: 9.3vw; !important; 
+    width: 9.3vw !important; 
     font-size: 90% !important;
   }
 }
