@@ -5,7 +5,10 @@
   background-color: var(--accent);
 }   
 
-.itemProgressBarForeground,
+.itemProgressBarForeground {
+  background: var(--hoveraccent) !important;
+}
+
 div[data-role="controlgroup"] a.ui-btn-active,
 .iconOsdProgressInner,
 .mdl-slider::-moz-range-thumb {
