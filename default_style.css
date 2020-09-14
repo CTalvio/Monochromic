@@ -512,7 +512,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .cardImage,
-.cardImageContainer {
+.blurhashed {
    background-color: #0000 !important;
 }
 
