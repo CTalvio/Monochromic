@@ -339,16 +339,21 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 
 /*Rounded corners on pretty much everything*/
 .formDialogHeader {
-  border-top-left-radius: 0.4em;
-  border-top-right-radius: 0.4em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .formDialogFooter {
-  border-bottom-left-radius: 0.4em;
-  border-bottom-right-radius: 0.4em;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .cardOverlayContainer {
-	border-radius: 0.3em !important;
+	border-radius: 5px !important;
 }
+.paperList,
+.cardContent,
+.sessionNowPlayingInnerContent, 
+.listItem:hover, 
+.cardImage,
 .fab,
 .raised,
 .multiSelectCheckboxOutline,
@@ -377,26 +382,37 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .checkboxOutline,
 .emby-select-withcolor,
 .cardOverlayButtonIcon {
-  border-radius: 0.4em !important;
+  border-radius: 5px !important;
 }
 .osdPoster img {
-  border-radius: 0.4em; border: none;
+  border-radius: 5px; border: none;
 }
 .mdl-slider::-moz-range-thumb {
-  border-radius: 0.4em;
+  border-radius: 5px;
 }
 div[data-role="controlgroup"] a[data-role="button"]:first-child {
-	border-bottom-left-radius: 0.4em;
-	border-top-left-radius: 0.4em;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 div[data-role="controlgroup"] a[data-role="button"]:last-child {
-	border-bottom-right-radius: 0.4em;
-	border-top-right-radius: 0.4em;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 /*Modified progress bar, play and item menu buttons*/
+.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
+  border-radius: 0px !important; 
+  background: rgba(0,0,0,0.7);
+}
+.itemProgressBarForeground {
+    background: rgba(255, 255, 255, 0.6) !important;
+}
 .itemProgressBar {
-  height: 3px;
+    height: 500px;
+    background: #0000;
+}
+.innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
+  border-radius: 0px !important; 
   background: rgba(0,0,0,0);
 }
 .cardIndicators {
@@ -495,17 +511,24 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .cardImage,
-.sessionNowPlayingInnerContent {
-    background-color: #000;
+.sessionNowPlayingInnerContent,
+.cardImageContainer {
+   background-color: #0000 !important;
 }
 
 .listItemIcon {
   background-color: rgba(0,0,0,0) !important;
 }
 .raised,
-.fab
+.fab,
 a[data-role="button"] {
   background: rgba(40, 40, 40, 0.8) !important;
+	transition: all 0.2s !important;
+}
+
+.raised:hover,
+.fab:hover {
+  background: rgba(80, 80, 80, 0.8) !important;
 }
 
 .paper-icon-button-light:hover,
