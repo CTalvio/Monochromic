@@ -1,8 +1,9 @@
 .navMenuOption-selected {
-    color: var(--accent);
+  color: var(--accent);
 }
 .mdl-slider-background-lower {
   background-color: var(--accent);
+}   
 
 .itemProgressBarForeground,
 div[data-role="controlgroup"] a.ui-btn-active,
