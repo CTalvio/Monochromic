@@ -10,6 +10,11 @@
 .cardOverlayContainer {
 	border-radius: 0em !important;
 }
+.paperList,
+.cardContent,
+.sessionNowPlayingInnerContent, 
+.listItem:hover, 
+.cardImage,
 .fab,
 .raised,
 .multiSelectCheckboxOutline,
@@ -37,9 +42,8 @@
 .visualCardBox,
 .checkboxOutline,
 .emby-select-withcolor,
-.cardOverlayButtonIcon,
-.emby-input {
-  border-radius: 0em !important;
+.cardOverlayButtonIcon {
+  border-radius: 0px !important;
 }
 .osdPoster img {
   border-radius: 0em; border: none;
