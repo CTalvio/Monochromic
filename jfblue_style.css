@@ -5,7 +5,10 @@
   background-color: #00a4dc;
 }
 
-.itemProgressBarForeground,
+.itemProgressBarForeground {
+  background: #00a4dc80 !important;
+}
+
 div[data-role="controlgroup"] a.ui-btn-active,
 .iconOsdProgressInner,
 .mdl-slider::-moz-range-thumb {
