@@ -405,7 +405,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   background: rgba(0,0,0,0.7);
 }
 .itemProgressBarForeground {
-    background: rgba(255, 255, 255, 0.6) !important;
+    background: #fff5 !important;
 }
 .itemProgressBar {
     height: 500px;
@@ -488,9 +488,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 .iconOsdProgressInner {
   background: rgb(255, 255, 255);
 }
-.itemProgressBarForeground {
-  background: rgba(255, 255, 255, 0.6) !important;
-}
+
 /*.backgroundContainer,*/
 .navMenuOption-selected,
 .selectionCommandsPanel {
