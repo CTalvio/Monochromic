@@ -1,3 +1,7 @@
+.raised:hover, .fab:hover {
+  background: var(--hoveraccent) !important;
+}
+
 .navMenuOption-selected {
   color: var(--accent);
 }
