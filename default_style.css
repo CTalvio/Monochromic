@@ -448,6 +448,9 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /*Themeing for the dashboard*/
+.sessionCardFooter {
+  border: none;
+}
 .paperList, 
 .visualCardBox {
   background-color: rgba(0, 0, 0, 0.5);
