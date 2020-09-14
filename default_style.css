@@ -514,7 +514,6 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 
 .cardImage,
-.sessionNowPlayingInnerContent,
 .cardImageContainer {
    background-color: #0000 !important;
 }
