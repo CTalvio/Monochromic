@@ -406,14 +406,14 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 .itemProgressBar {
-    height: 500px;
-    background: #0000;
+  height: 500px;
+  background: #0000;
 }
-.playbackProgress>div, .itemProgressBarForeground {
-    background-color: rgba(255,255,255,0.75);
+.playbackProgress>div {
+  background-color: rgba(255,255,255,0.75);
 }
-.transcodingProgress>div {
-    background-color: rgba(255,255,255,0.35);
+.transcodingProgress>div, .itemProgressBarForeground {
+  background-color: rgba(255,255,255,0.35);
 }
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
   border-radius: 0px !important; 
