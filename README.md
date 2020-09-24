@@ -48,6 +48,8 @@ Blue restores some of the default jellyfin blue accenting, while purple uses... 
 
 ### Restore bottom bar style episode progress
 
+Don't like my transparent view progress overlay? Use this to go back to the old style.
+
 ```css
 @import url('https://ctalvio.github.io/Monochromic/bottom-progress_style.css');
 ```
