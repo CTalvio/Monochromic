@@ -6,9 +6,9 @@
 }
 
 .playbackProgress>div, .itemProgressBarForeground {
-    background-color: rgba(var(--accent), 0.75);
+    background-color: rgba(var(--accent), 0.75) !important;
 }
 
 .transcodingProgress>div {
-    background-color: rgba(var(--accent), 0.35);
+    background-color: rgba(var(--accent), 0.35) !important;
 }
