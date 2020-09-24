@@ -1,3 +1,2 @@
-@import url('https://ctalvio.github.io/Monochromic/customcolor_style.css');
-:root {--accent: #00a4dc;}
-:root {--hoveraccent: #00a4dc55;}
+@import url('https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css');
+:root {--accent: 0, 164, 220;}
