@@ -12,6 +12,9 @@
 .raised.homeLibraryButton {
     background: rgba(0, 0, 0, 0.3) !important;
 }
+.raised.homeLibraryButton:hover {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
 .raised.homeLibraryButton:hover {transition: filter 0.2s}
 .raised.homeLibraryButton {transition: filter 0.2s}
 .homeLibraryButton {
