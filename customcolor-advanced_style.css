@@ -9,8 +9,12 @@
   background-color: rgba(var(--accent));
 }   
 
-.itemProgressBarForeground {
-  background: rgba(var(--accent),0.5) !important;
+.playbackProgress>div {
+  background-color: rgba(var(--accent),0.75);
+}
+
+.transcodingProgress>div, .itemProgressBarForeground {
+  background-color: rgba(var(--accent),0.35);
 }
 
 div[data-role="controlgroup"] a.ui-btn-active,
