@@ -1,0 +1,48 @@
+.raised:hover, .fab:hover {
+  background: rgba(var(--accent),0.5) !important;
+}
+
+.navMenuOption-selected {
+  color: rgba(var(--accent));
+}
+.mdl-slider-background-lower {
+  background-color: rgba(var(--accent));
+}   
+
+.itemProgressBarForeground {
+  background: rgba(var(--accent),0.5) !important;
+}
+
+div[data-role="controlgroup"] a.ui-btn-active,
+.iconOsdProgressInner,
+.mdl-slider::-moz-range-thumb {
+  background: rgba(var(--accent)) !important;
+}
+
+.paper-icon-button-light:hover,
+.raised.homeLibraryButton:hover,
+.button-flat:hover,
+.playstatebutton-icon-played,
+.ratingbutton-icon-withrating,
+.paper-icon-button-light:hover:not(:disabled),
+.emby-tab-button:hover,
+.selectLabelFocused,
+.inputLabelFocused,
+.textareaLabelFocused {
+  color: rgba(var(--accent)) !important;
+}
+
+.navMenuOption:hover,
+.actionSheetMenuItem:hover {
+  background-color: rgba(var(--accent),0.5) !important;
+}
+
+.emby-checkbox:checked + span + .checkboxOutline,
+.emby-textarea:focus,
+.emby-select-withcolor:focus,
+.emby-input:focus,
+.itemSelectionPanel {
+  border: 0.01em solid rgba(var(--accent),0.5) !important;
+}
+
+.mdl-spinner__layer-1 {border-color: rgba(var(--accent));}
