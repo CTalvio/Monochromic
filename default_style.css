@@ -192,7 +192,7 @@
   }
 }
 
-/*Theme some dialogues*/
+/*Theme dialogues, drop downs, text fiels, checkmarks*/
 .dialog {
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -288,6 +288,9 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
   height: 135px;
   background-color:rgba(0, 0, 0, 0);
 }*/
+
+
+/*Top "task bar" make transparent and enlarge text*/
 .skinHeader {
   background: none !important; 
   background-color: rgba(0, 0, 0, 0) !important;
@@ -329,8 +332,8 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
   background-size: cover !important;
 }
 
-/*Make watched icon and other things dark and transparent*/
-.innerCardFooter, 
+/*Make watched icon, footer on chapter thumnails (and other things), and count indicator dark and transparent*/
+.innerCardFooter,
 .countIndicator, 
 .playedIndicator {
   background: rgba(0,0,0,0.4); 
@@ -384,6 +387,9 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .visualCardBox,
 .checkboxOutline,
 .emby-select-withcolor,
+.chapterThumbTextContainer,
+.chapterThumbContainer,
+.chapterThumb,
 .cardOverlayButtonIcon {
   border-radius: 5px !important;
 }
@@ -425,10 +431,13 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 .transcodingProgress>div, .itemProgressBarForeground {
   background-color: rgba(255,255,255,0.3);
 }
+
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
   border-radius: 0px !important; 
   background: rgba(0,0,0,0);
 }
+
+/*Accommodate mobile and set positions, I think*/
 .cardIndicators {
   right: 0.3em; 
   top: 0.3em;
@@ -461,7 +470,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   margin: .2em !important;
 }
 
-/*Themeing for the dashboard*/
+/*Some themeing for the dashboard*/
 .sessionCardFooter {
   border: none;
 }
@@ -477,11 +486,25 @@ fieldset {
   border-radius: 0.4em;
 }
 
+/*Shrink the mouseover chapter image when scrobbling*/
+.chapterThumb {
+    height: 14vh;
+    min-width: 14vh;
+}
+.chapterThumbText {
+    font-size: 1em;
+}
+.sliderBubble {
+  background: #0000;
+}
+
 /*Color theming*/
+/*Affects blurhash to remove the saturated colors to fit overall look*/
 .blurhash-canvas {
 	filter: opacity(60%) saturate(60%);
 }
 
+/*Theme user setting tab buttons*/
 div[data-role="controlgroup"] a.ui-btn-active {
 	background: rgba(0, 0, 0, 0.5); !important;
 	color: white !important;
@@ -494,9 +517,13 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 	margin: 0 !important;
 }
 
+/*Rating star, normally yellow*/
 .starIcon {
   color: white;
 }
+
+
+/*Theme media player*/
 .mdl-slider-background-lower {
   background-color: rgb(255, 255, 255);
 }
