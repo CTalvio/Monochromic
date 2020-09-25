@@ -491,7 +491,7 @@ progress {
  background: rgba(0, 0, 0, 0.5) !important;
  border-radius: 5px;
 }
-span {
+#divRunningTasks span {
   color: rgba(255,255,255,0.75) !important;
 }
 progress::-webkit-progress-bar {
