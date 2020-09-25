@@ -209,7 +209,8 @@
   background-color: #101010 !important;
 }
 .formDialogHeader.formDialogHeader-clear.justify-content-center,
-.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex {
+.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex,
+.collapseContent {
   background-color: #0000 !important;
 }
 
