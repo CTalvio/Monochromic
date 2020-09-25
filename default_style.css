@@ -271,8 +271,32 @@
 }
 
 /*Banner transparency*/
+#dashboardPage,
+#dashboardGeneralPage,
+#userProfilesPage,
+#devicesPage,
+#serverActivityPage,
+#liveTvStatusPage,
+#liveTvSettingsPage,
+#networkingPage,
+#apiKeysPage,
+#logPage,
+#notificationSettingsPage,
+#scheduledTasksPage {
+  mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
+  -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
+  overflow: scroll;
+}
+
 @media all and (min-width: 100em){
-  #indexPage, #moviesPage, #tvRecommendedPage, #musicRecommendedPage {
+  #indexPage,
+	#moviesPage,
+	#tvRecommendedPage,
+	#encodingSettingsPage,
+	#mediaLibraryPage,
+	#dlnaSettingsPage,
+	#pluginsPage,
+	#musicRecommendedPage {
     mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
     -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
     overflow: scroll;
@@ -280,7 +304,14 @@
 }
 
 @media all and (max-width: 100em){
-  #indexPage, #moviesPage, #tvRecommendedPage, #musicRecommendedPage {
+  #indexPage,
+	#moviesPage,
+	#tvRecommendedPage,
+	#encodingSettingsPage,
+	#mediaLibraryPage,
+	#dlnaSettingsPage,
+	#pluginsPage,
+	#musicRecommendedPage {
     mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
     -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
     overflow: scroll;
