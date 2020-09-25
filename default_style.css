@@ -483,9 +483,13 @@ fieldset {
 }
 
 div[data-role="controlgroup"] a.ui-btn-active {
-	background: rgba(120, 120, 120, 0.6) !important; 
+	background: rgba(0, 0, 0, 0.5); !important;
 	color: white !important;
 }
+a[data-role="button"]:hover {
+    background: rgba(80, 80, 80, 0.8) !important;
+}
+
 div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 	margin: 0 !important;
 }
@@ -551,7 +555,6 @@ a[data-role="button"] {
   background: rgba(80, 80, 80, 0.8) !important;
 }
 
-.paper-icon-button-light:hover,
 .paper-icon-button-light:hover {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
