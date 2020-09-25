@@ -270,26 +270,23 @@
   .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
 }
 
-/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size 
-the commented code is for WIP gradient to allow taskbar visibility during scrolling
+/*Banner transparency*/
 @media all and (min-width: 100em){
-  .flex.align-items-center.flex-grow.headerTop {
-    margin-top: -60px;
-  }
-  .headerTabs {
-    position: absolute;
-    margin-top: 0px;
+    #indexPage, #moviesPage, #tvRecommendedPage, #musicRecommendedPage {
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
+    overflow: scroll;
   }
 }
-.emby-tab-button {
-  padding: 1.4em;
-}
-.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
-  background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 27%, rgba(0, 0, 0, 0.8) 100%) !important;
-  height: 135px;
-  background-color:rgba(0, 0, 0, 0);
-}*/
 
+@media all and (max-width: 100em){
+    #indexPage, #moviesPage, #tvRecommendedPage, #musicRecommendedPage {
+    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
+    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
+overflow: scroll;
+    margin-top: 20px;
+  }
+}
 
 /*Top "task bar" make transparent and enlarge text*/
 .skinHeader {
