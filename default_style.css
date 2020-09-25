@@ -486,6 +486,27 @@ fieldset {
   border-radius: 0.4em;
 }
 
+/*Theme the library scan progress bar*/
+progress {
+ background: rgba(0, 0, 0, 0.5) !important;
+ border-radius: 5px;
+}
+span {
+  color: rgba(255,255,255,0.75) !important;
+}
+progress::-webkit-progress-bar {
+  background: rgba(255,255,255,0.75);
+  border-radius: 5px;
+}
+progress::-moz-progress-bar {
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+}
+progress::-webkit-progress-value {
+  background-color: rgba(255,255,255,0.75);
+  border-radius: 5px;
+}
+
 /*Shrink the mouseover chapter image when scrobbling*/
 .chapterThumb {
     height: 14vh;
