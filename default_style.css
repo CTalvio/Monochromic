@@ -282,7 +282,8 @@
 #apiKeysPage,
 #logPage,
 #notificationSettingsPage,
-#scheduledTasksPage {
+#scheduledTasksPage,
+#itemDetailPage {
   mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
   -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
   overflow: scroll;
