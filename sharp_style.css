@@ -42,6 +42,9 @@
 .visualCardBox,
 .checkboxOutline,
 .emby-select-withcolor,
+.chapterThumbTextContainer,
+.chapterThumbContainer,
+.chapterThumb,
 .cardOverlayButtonIcon {
   border-radius: 0px !important;
 }
@@ -49,7 +52,22 @@
   border-radius: 0em; border: none;
 }
 .mdl-slider::-moz-range-thumb {
-  border-radius: 0em;
+  border-radius: 0px;
+}
+.mdl-slider::-ms-thumb {
+  border-radius: 0px;
+}
+.mdl-slider::-webkit-slider-thumb {
+  border-radius: 0px;
+}
+progress::-webkit-progress-bar {
+  border-radius: 0px;
+}
+progress::-moz-progress-bar {
+  border-radius: 0px;
+}
+progress::-webkit-progress-value {
+  border-radius: 0px;
 }
 div[data-role="controlgroup"] a[data-role="button"]:first-child {
 	border-bottom-left-radius: 0em;
