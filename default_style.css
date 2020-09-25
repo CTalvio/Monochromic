@@ -393,6 +393,13 @@ the commented code is for WIP gradient to allow taskbar visibility during scroll
 .mdl-slider::-moz-range-thumb {
   border-radius: 5px;
 }
+.mdl-slider::-ms-thumb {
+  border-radius: 5px;
+}
+.mdl-slider::-webkit-slider-thumb {
+  border-radius: 5px;
+}
+
 div[data-role="controlgroup"] a[data-role="button"]:first-child {
 	border-bottom-left-radius: 5px;
 	border-top-left-radius: 5px;
@@ -490,6 +497,12 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   background-color: rgb(255, 255, 255);
 }
 .mdl-slider::-moz-range-thumb {
+  background: rgb(255, 255, 255);
+}
+.mdl-slider::-ms-thumb {
+  background: rgb(255, 255, 255);
+}
+.mdl-slider::-webkit-slider-thumb {
   background: rgb(255, 255, 255);
 }
 .iconOsdProgressInner {
