@@ -449,6 +449,9 @@
 .chapterThumbTextContainer,
 .chapterThumbContainer,
 .chapterThumb,
+.emby-input, 
+.emby-textarea, 
+.emby-select-withcolor,
 .cardOverlayButtonIcon {
   border-radius: 5px !important;
 }
