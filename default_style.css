@@ -148,6 +148,15 @@
 }
 
 /*Tweak series/movie/album title screen*/
+@media all and (max-width: 100em){
+  .mainDetailButtons {
+	  font-size: 155%;
+	}
+}
+.mainDetailButtons {
+	font-size: 120%;
+}
+
 .detailSectionContent {
   max-width: 66em;
 }
