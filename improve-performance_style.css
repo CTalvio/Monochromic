@@ -1,0 +1,77 @@
+/*Achieves similar effect without use of mask-image, foregoing the cool fade effect*/
+#dashboardPage,
+#dashboardGeneralPage,
+#userProfilesPage,
+#devicesPage,
+#serverActivityPage,
+#liveTvStatusPage,
+#liveTvSettingsPage,
+#networkingPage,
+#apiKeysPage,
+#logPage,
+#notificationSettingsPage,
+#scheduledTasksPage,
+#itemDetailPage {
+  margin-top: 60px;
+    padding-top: 0px !important;
+  overflow: scroll;
+}
+
+@media all and (min-width: 100em){
+  #indexPage,
+  #moviesPage,
+  #tvRecommendedPage,
+  #musicRecommendedPage {
+    margin-top: 70px;
+    padding-top: 0px !important;
+    overflow: scroll;
+  }
+  #encodingSettingsPage,
+  #mediaLibraryPage,
+  #dlnaSettingsPage,
+  #pluginsPage {
+    margin-top: 60px;
+    padding-top: 0px !important;
+    overflow: scroll;
+  }
+}
+
+@media all and (max-width: 100em){
+  #indexPage,
+  #moviesPage,
+  #tvRecommendedPage,
+  #encodingSettingsPage,
+  #mediaLibraryPage,
+  #dlnaSettingsPage,
+  #pluginsPage,
+  #musicRecommendedPage {
+    margin-top: 130px;
+    padding-top: 0px !important;
+    overflow: scroll;
+  }
+}
+
+#dashboardPage,
+#dashboardGeneralPage,
+#userProfilesPage,
+#devicesPage,
+#serverActivityPage,
+#liveTvStatusPage,
+#liveTvSettingsPage,
+#networkingPage,
+#apiKeysPage,
+#logPage,
+#notificationSettingsPage,
+#scheduledTasksPage,
+#itemDetailPage,
+#indexPage,
+#moviesPage,
+#tvRecommendedPage,
+#encodingSettingsPage,
+#mediaLibraryPage,
+#dlnaSettingsPage,
+#pluginsPage,
+#musicRecommendedPage {
+  mask-image: none;
+  -webkit-mask-image: none;
+}
