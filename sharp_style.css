@@ -45,8 +45,14 @@
 .chapterThumbTextContainer,
 .chapterThumbContainer,
 .chapterThumb,
+.emby-input, 
+.emby-textarea, 
+.emby-select-withcolor,
 .cardOverlayButtonIcon {
   border-radius: 0px !important;
+}
+progress {
+    border-radius: 0px;
 }
 .osdPoster img {
   border-radius: 0em; border: none;
