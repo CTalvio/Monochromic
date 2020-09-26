@@ -477,6 +477,16 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	border-top-right-radius: 5px;
 }
 
+/*Homepage modifications, transparent footeplayer and fixed sectiontitles*/
+.appfooter {
+	background: rgba(0,0,0,0.9);
+}
+.sectionTitle {
+	margin-left: .4em !important;
+	margin-top: .2em !important;
+	margin-bottom: .2em !important;
+}
+
 /*Modified progress bar, play and item menu buttons*/
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
   border-radius: 0px !important; 
