@@ -28,6 +28,14 @@ To use the theme copy paste the line below into "Dashboard>General>Custom CSS" a
 
 This theme has some additional options, they can allow the use of a custom accent color, and more. These are added immediately after the default import line.
 
+### Improve performance
+
+The theme uses mask-image to fade out items below the top bar as you scroll. This works well on most reasonable hardware but struggles on some phones and especially smart TVs. This switches to a method without using mask-image, but foregoes the fade-out effect. I may switch to this method being the default.
+
+```css
+@import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
+```
+
 ### No rounded corners 
 
 In fact, squares off  every rounded corner JF ever had.
