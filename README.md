@@ -98,7 +98,8 @@ https://ctalvio.github.io/Monochromic/jfblue_style.css
 https://ctalvio.github.io/Monochromic/jfpurple_style.css 
 https://ctalvio.github.io/Monochromic/bottom-progress_style.css.css 
 https://ctalvio.github.io/Monochromic/customcolor_style.css 
-https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css 
+https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css
+https://ctalvio.github.io/Monochromic/improve-performance_style.css
 https://fonts.googleapis.com/css2; 
 script-src 'self' 'unsafe-inline' 
 https://www.gstatic.com/cv/js/sender/v1/cast_sender.js 
@@ -110,6 +111,7 @@ https://ctalvio.github.io/Monochromic/jfpurple_style.css
 https://ctalvio.github.io/Monochromic/bottom-progress_style.css
 https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css 
 https://ctalvio.github.io/Monochromic/customcolor_style.css;
+https://ctalvio.github.io/Monochromic/improve-performance_style.css
 worker-src 'self' blob:; connect-src 'self'; object-src 'none'; frame-ancestors 'self'";
 ```
 
