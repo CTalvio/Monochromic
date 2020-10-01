@@ -477,14 +477,27 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	border-top-right-radius: 5px;
 }
 
-/*Homepage modifications, transparent footeplayer and fixed sectiontitles*/
+/*Homepage modifications, transparent footerplayer and fixed sectiontitles*/
 .appfooter {
 	background: rgba(0,0,0,0.9);
+}
+
+/*Fix weird shevron off centering*/
+.layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
+ padding-top:0em;
 }
 .sectionTitle {
 	margin-left: .4em !important;
 	margin-top: .2em !important;
 	margin-bottom: .2em !important;
+}
+/*Fix the UI shifting around*/
+.nowPlayingBarCurrentTime {
+    width: 6em;
+}
+/*Fix top right user icon when using a profile image*/
+.headerUserButtonRound {
+  border-radius: 50px !important;
 }
 
 /*Modified progress bar, play and item menu buttons*/
@@ -634,6 +647,9 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 }
 .iconOsdProgressInner {
   background: rgb(255, 255, 255);
+}
+.osdHeader {
+  background: rgba(0,0,0,.7) !important;
 }
 
 /*.backgroundContainer,*/
