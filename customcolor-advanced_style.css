@@ -29,9 +29,20 @@ progress::-webkit-progress-value {
   background-color: rgba(var(--accent),0.35);
 }
 
-.iconOsdProgressInner,
+.mdl-slider-background-lower {
+  background-color: rgb(var(--accent));
+}
 .mdl-slider::-moz-range-thumb {
-  background: rgba(var(--accent)) !important;
+  background: rgb(var(--accent));
+}
+.mdl-slider::-ms-thumb {
+  background: rgb(var(--accent));
+}
+.mdl-slider::-webkit-slider-thumb {
+  background: rgb(var(--accent));
+}
+.iconOsdProgressInner {
+  background: rgb(var(--accent));
 }
 
 .paper-icon-button-light:hover,
