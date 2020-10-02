@@ -201,47 +201,6 @@
   }
 }
 
-/*Theme dialogues, drop downs, text fiels, checkmarks*/
-.dialog {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.actionSheetMenuItem:hover {
-  background-color: rgba(0, 164, 220, 0.2);
-}
-.mainDrawer {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.navMenuOption:hover {
-  background: rgba(0, 164, 220, 0.2);
-}
-.formDialogHeader, .formDialogFooter {
-  background-color: #101010 !important;
-}
-.formDialogHeader.formDialogHeader-clear.justify-content-center,
-.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex,
-.collapseContent {
-  background-color: #0000 !important;
-}
-
-/*Tweak entry fields*/
-.selectContainer {
-  margin-right: 1em !important;
-}
-.checkboxOutline {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-.emby-input,
-.emby-textarea,
-.emby-select-withcolor {
-  background: rgba(0, 0, 0, 0.2); 
-  border: 0.01em solid rgba(255, 255, 255, 0.22);
-}
-.emby-input:focus, 
-.emby-textarea:focus, 
-.emby-select-withcolor:focus {
-  background: rgba(0, 0, 0, 0.5) !important; 
-  border: 0.01em solid #00a4dcc2 !important;
-}
 
 /*Size episode preview images in a more compact way*/
 .listItem:hover {
@@ -674,14 +633,12 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   color: rgba(120, 120, 120, 0.6) !important;
 }
 
+.listItemIcon,
 .cardImage,
 .blurhashed {
    background-color: #0000 !important;
 }
 
-.listItemIcon {
-  background-color: rgba(0,0,0,0) !important;
-}
 .raised,
 .fab,
 a[data-role="button"] {
@@ -689,22 +646,58 @@ a[data-role="button"] {
 	transition: all 0.2s !important;
 }
 
-.raised:hover,
-.fab:hover {
-  background: rgba(80, 80, 80, 0.8) !important;
-}
-
 .paper-icon-button-light:hover {
   background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
+.raised:hover,
+.fab:hover,
 .navMenuOption:hover,
 .actionSheetMenuItem:hover {
-  background-color: rgba(80, 80, 80, 0.8) !important;
+  background: rgba(80, 80, 80, 0.8) !important;
+}
+
+
+/*Theme dialogues, drop downs*/
+.dialog {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.actionSheetMenuItem:hover {
+  background-color: rgba(0, 164, 220, 0.2);
+}
+.mainDrawer {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.navMenuOption:hover {
+  background: rgba(0, 164, 220, 0.2);
+}
+.formDialogHeader, .formDialogFooter {
+  background-color: #101010 !important;
+}
+.formDialogHeader.formDialogHeader-clear.justify-content-center,
+.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex,
+.collapseContent {
+  background-color: #0000 !important;
+}
+
+/*Tweak entry fields, checkamarks*/
+.selectContainer {
+  margin-right: 1em !important;
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  background: rgba(0, 0, 0, 0.2); 
+  border: 0.01em solid rgba(255, 255, 255, 0.22);
+}
+.emby-input:focus,
+.emby-textarea:focus,
+.emby-select-withcolor:focus {
+  background: rgba(0, 0, 0, 0.5) !important; 
 }
 
 .emby-textarea:focus,
-.checkboxOutline,
 .emby-select-withcolor:focus,
 .emby-input:focus,
 .itemSelectionPanel {
@@ -714,6 +707,7 @@ a[data-role="button"] {
   border: 0.01em solid rgba(255, 255, 255, 0.22) !important;
 }
 
+/*Colors for loading spinner and other stuff*/
 .mdl-spinner__layer-1 {border-color: rgba(255, 255, 255, 1);}
 .mdl-spinner__layer-2 {border-color: rgba(128, 128, 128, 1);}
 .mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
