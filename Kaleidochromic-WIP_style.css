@@ -1,0 +1,113 @@
+/*.emby-input:focus, 
+.emby-textarea:focus, 
+.emby-select-withcolor:focus {
+  background: rgba(var(--accent), 0.1) !important; 
+}
+
+.mainDrawer, .dialog {
+    backdrop-filter: blur(20px);
+}
+
+.subtitleappearance-preview {
+  background: linear-gradient(140deg,rgb(var(--accent)),#111) !important;
+}
+
+video::-webkit-media-text-track-display {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 50%;
+}
+
+.raised,
+.fab,
+a[data-role="button"] {
+  background: rgba(var(--accent), 0.8) !important;
+	transition: all 0.2s !important;
+}
+
+.cardOverlayContainer:hover {
+  box-shadow: 0px 0px 5px rgb(var(--accent));
+  border: solid 1px rgba(var(--accent),0.6);
+}
+
+.dialog {
+    box-shadow: 0px 0px 5px rgb(var(--accent));
+    border: solid 1px rgba(var(--accent),0.6);
+}
+
+.raised
+
+/*Rounded corners on pretty much everything*/
+.formDialogHeader {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.formDialogFooter {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.cardOverlayContainer {
+	border-radius: 12px !important;
+}
+.paperList,
+.cardContent,
+.sessionNowPlayingInnerContent, 
+.listItem:hover, 
+.cardImage,
+.fab,
+.raised,
+.multiSelectCheckboxOutline,
+.itemSelectionPanel,
+.cardContent-button, 
+.cardContent-shadow, 
+.itemDetailImage, 
+.cardOverlayButton-hover,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog,
+.countIndicator,
+.playedIndicator,
+.listItemIcon,
+.listItem-border,
+.button-flat,
+.visualCardBox,
+.checkboxOutline,
+.emby-select-withcolor,
+.chapterThumbTextContainer,
+.chapterThumbContainer,
+.chapterThumb,
+.emby-input, 
+.emby-textarea, 
+.emby-select-withcolor,
+.cardOverlayButtonIcon {
+  border-radius: 12px !important;
+}
+.osdPoster img {
+  border-radius: 12px; border: none;
+}
+.mdl-slider::-moz-range-thumb {
+  border-radius: 12px;
+}
+.mdl-slider::-ms-thumb {
+  border-radius: 12px;
+}
+.mdl-slider::-webkit-slider-thumb {
+  border-radius: 12px;
+}
+
+div[data-role="controlgroup"] a[data-role="button"]:first-child {
+	border-bottom-left-radius: 12px;
+	border-top-left-radius: 12px;
+}
+div[data-role="controlgroup"] a[data-role="button"]:last-child {
+	border-bottom-right-radius: 12px;
+	border-top-right-radius: 12px;
+}*/
