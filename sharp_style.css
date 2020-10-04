@@ -86,6 +86,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 fieldset {
   border-radius: 0em;
 }
-headerUserButtonRound {
+.headerUserButtonRound {
   border-radius: 50px !important;
 }
