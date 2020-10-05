@@ -2,6 +2,8 @@
   font-family: 'Quicksand', sans-serif;
 }
 
+:root {--rounding: 5px;}
+
 /*Narrow margins, theme main page*/
 .cardBox-bottompadded {
     margin-bottom: 0.6em !important;
@@ -363,16 +365,17 @@
 
 /*Rounded corners on pretty much everything*/
 .formDialogHeader {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: var(--rounding);
+  border-top-right-radius: var(--rounding);
 }
 .formDialogFooter {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: var(--rounding);
+  border-bottom-right-radius: var(--rounding);
 }
 .cardOverlayContainer {
-	border-radius: 5px !important;
+	border-radius: var(--rounding) !important;
 }
+.toast,
 .paperList,
 .cardContent,
 .sessionNowPlayingInnerContent, 
@@ -412,28 +415,28 @@
 .emby-textarea, 
 .emby-select-withcolor,
 .cardOverlayButtonIcon {
-  border-radius: 5px !important;
+  border-radius: var(--rounding) !important;
 }
 .osdPoster img {
-  border-radius: 5px; border: none;
+  border-radius: var(--rounding); border: none;
 }
 .mdl-slider::-moz-range-thumb {
-  border-radius: 5px;
+  border-radius: var(--rounding);
 }
 .mdl-slider::-ms-thumb {
-  border-radius: 5px;
+  border-radius: var(--rounding);
 }
 .mdl-slider::-webkit-slider-thumb {
-  border-radius: 5px;
+  border-radius: var(--rounding);
 }
 
 div[data-role="controlgroup"] a[data-role="button"]:first-child {
-	border-bottom-left-radius: 5px;
-	border-top-left-radius: 5px;
+	border-bottom-left-radius: var(--rounding);
+	border-top-left-radius: var(--rounding);
 }
 div[data-role="controlgroup"] a[data-role="button"]:last-child {
-	border-bottom-right-radius: 5px;
-	border-top-right-radius: 5px;
+	border-bottom-right-radius: var(--rounding);
+	border-top-right-radius: var(--rounding);
 }
 
 /*Homepage modifications, transparent footerplayer and fixed sectiontitles*/
@@ -658,8 +661,9 @@ a[data-role="button"] {
 }
 
 
-/*Theme dialogues, drop downs*/
-.dialog {
+/*Theme dialogues, drop downs, toast*/
+.dialog, 
+.toast {
   background-color: rgba(0, 0, 0, 0.8);
 }
 .actionSheetMenuItem:hover {
