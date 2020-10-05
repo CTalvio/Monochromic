@@ -199,7 +199,7 @@
     margin-top: 5em;
   }
   .itemBackdrop {
-    filter: blur(70px) saturate(200%) contrast(160%) brightness(25%);
+    filter: blur(45px) saturate(200%) contrast(160%) brightness(25%);
   }
 }
 
