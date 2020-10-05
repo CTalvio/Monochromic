@@ -4,6 +4,10 @@ a[data-role="button"]:hover {
   background: rgba(var(--accent),0.5) !important;
 }
 
+.subtitleappearance-preview {
+  background: linear-gradient(140deg,rgb(var(--accent)),#111) !important;
+}
+
 .navMenuOption-selected {
   color: rgba(var(--accent));
 }
