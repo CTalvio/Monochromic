@@ -111,3 +111,82 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	border-bottom-right-radius: 12px;
 	border-top-right-radius: 12px;
 }
+
+progress {
+ border-radius: 12px;
+}
+progress::-webkit-progress-bar {
+  border-radius: 5px;
+}
+progress::-moz-progress-bar {
+  border-radius: 12px;
+}
+progress::-webkit-progress-value {
+  border-radius: 12px;
+}
+
+.button-link {
+    color: rgb(var(--accent));
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  background: rgba(0, 0, 0, 0.2); 
+  border: 2px solid rgba(255, 255, 255, 0.22);
+}
+
+.emby-textarea:focus,
+.emby-select-withcolor:focus,
+.emby-input:focus,
+.itemSelectionPanel {
+  border: 2px solid rgba(var(--accent), 0.8) !important;
+}
+.emby-checkbox:checked + span + .checkboxOutline {
+  border: 2px solid rgba(var(--accent), 0.8) !important;
+}
+
+body, h1, h2, h3, h4 {
+  text-shadow: 0px 0px 3px rgba(0,0,0,.4) !important;
+}
+
+.cardBox:not(.visualCardBox) .cardPadder, .cardContent-shadow {
+    box-shadow: none !important;
+}
+.cardImageContainer {
+    box-shadow: 0 0 3px 0 rgba(0,0,0,.4) !important;
+}
+
+.backdropImage {
+  filter: blur(30px) saturate(120%) contrast(120%) brightness(45%);
+}
+
+/*Colors for loading spinner and other stuff*/
+.mdl-spinner__layer-1 {border-color: rgba(var(--accent), 1);}
+.mdl-spinner__layer-2 {border-color: rgba(var(--accent), .8);}
+.mdl-spinner__layer-3 {border-color: rgba(var(--accent), .6);}
+.mdl-spinner__layer-4 {border-color: rgba(var(--accent), .5);}
+
+.mainDrawer-scrollContainer,
+.formDialogContent.smoothScrollY {
+  scrollbar-color: rgba(var(--accent), 1) #0000 !important;
+}
+.layout-desktop {
+  scrollbar-color: rgba(var(--accent), 1) #0000;
+}
+
+.defaultCardBackground1 {
+	background-color: rgba(var(--accent), .5);
+}
+.defaultCardBackground2 {
+	background-color: rgba(var(--accent), .4);
+}
+.defaultCardBackground3 {
+	background-color: rgba(var(--accent), .8);
+}
+.defaultCardBackground4 {
+	background-color: rgba(var(--accent), .7);
+}
+.defaultCardBackground5 {
+	background-color: rgba(var(--accent), .6);
+}
