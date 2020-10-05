@@ -444,6 +444,11 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	background: rgba(0,0,0,0.9);
 }
 
+/*Modify subtitle settings page*/
+.subtitleappearance-preview {
+  background: linear-gradient(140deg,#444,#111) !important;
+}
+
 /*Fix weird shevron off centering*/
 .layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
  padding-top:0em;
