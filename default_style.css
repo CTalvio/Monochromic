@@ -516,7 +516,11 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     padding: 0.3em;
   }
 }
-.button-flat:hover {background: rgba(0,0,0,0.4);}
+
+/*Hover background for buttons*/
+.button-flat:hover {
+	background: rgba(0,0,0,0.4);
+}
 .button-flat {
   padding: .5em !important;
   margin: .2em !important;
