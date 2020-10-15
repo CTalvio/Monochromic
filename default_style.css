@@ -619,13 +619,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   background: rgba(0,0,0,.7) !important;
 }
 
-/*.backgroundContainer,*/
+/*Theme buttons and cards*/
 .navMenuOption-selected,
 .selectionCommandsPanel {
   background: #101010 !important;
-}
-.emby-checkbox:checked + span + .checkboxOutline {
-  background-color: rgba(20, 20, 20, 0.8) !important;
 }
 
 .paper-icon-button-light:hover,
@@ -713,10 +710,11 @@ a[data-role="button"] {
   border: 0.01em solid rgba(40, 40, 40, 0.8) !important;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
+  background-color: rgba(20, 20, 20, 0.8) !important;
   border: 0.01em solid rgba(255, 255, 255, 0.22) !important;
 }
 
-/*Colors for loading spinner and other stuff*/
+/*Colors for loading spinner, placeholders, scroll bars*/
 .mdl-spinner__layer-1 {border-color: rgba(255, 255, 255, 1);}
 .mdl-spinner__layer-2 {border-color: rgba(128, 128, 128, 1);}
 .mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
