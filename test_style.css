@@ -2,8 +2,6 @@
   font-family: 'Quicksand', sans-serif;
 }
 
-:root {--rounding: 5px;}
-
 /*Narrow margins, theme main page*/
 .cardBox-bottompadded {
     margin-bottom: 0.6em !important;
@@ -92,7 +90,7 @@
   background-color: #0000 !important; box-shadow: none !important;
 }
 
-/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
+/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles, still part of cast theming*/
 
 @media all and (min-width: 131.25em){
   #castContent .cardScalable {
@@ -316,7 +314,6 @@
   max-width: 22em;
 }
 
-/*Hide "please login" text, margin is to prevent login form moving too far up*/
 #loginPage h1 {
   display: none
 }
@@ -324,12 +321,10 @@
   margin-top: 50px
 }
 
-/*Hide "manual" and "forgot" buttons}*/
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
   display: none
 }
 
-/*Login background*/
 #loginPage {
   background: url(https://i.imgur.com/9vL4iNf.png) !important; 
   background-size: cover !important;
@@ -347,6 +342,8 @@
 }
 
 /*Rounded corners on pretty much everything*/
+:root {--rounding: 5px;}
+
 .formDialogHeader {
   border-top-left-radius: var(--rounding);
   border-top-right-radius: var(--rounding);
@@ -602,13 +599,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   background: rgba(0,0,0,.7) !important;
 }
 
-/*.backgroundContainer,*/
+/*Theme buttons and cards*/
 .navMenuOption-selected,
 .selectionCommandsPanel {
   background: #101010 !important;
-}
-.emby-checkbox:checked + span + .checkboxOutline {
-  background-color: rgba(20, 20, 20, 0.8) !important;
 }
 
 .paper-icon-button-light:hover,
@@ -696,6 +690,7 @@ a[data-role="button"] {
   border: 0.01em solid rgba(40, 40, 40, 0.8) !important;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
+  background-color: rgba(20, 20, 20, 0.8) !important;
   border: 0.01em solid rgba(255, 255, 255, 0.22) !important;
 }
 
