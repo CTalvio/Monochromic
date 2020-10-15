@@ -36,14 +36,6 @@ The theme uses mask-image to fade out items below the top bar as you scroll. Thi
 @import url('https://ctalvio.github.io/Monochromic/improve-performance_style.css');
 ```
 
-### No rounded corners 
-
-In fact, squares off  every rounded corner JF ever had.
-
-```css
-@import url('https://ctalvio.github.io/Monochromic/sharp_style.css');
-```
-
 ### Accent color presets 
 
 Blue restores some of the default jellyfin blue accenting, while purple uses... Well, purple, in a Jellyfin shade of course.
@@ -64,10 +56,17 @@ Don't like my transparent view progress overlay? Use this to go back to the old 
 
 ### Define your own accent color
 
-**UPDATED**: This now uses a single RGB value in a variable. This lets me use the color at various transparencies and hence apply the accent more flexibly in places. Use any RGB color picker to find the value for any given color and enter it. **This import line should always be last**.
+**UPDATED**: This now uses a single RGB value in a variable. This lets me use the color at various transparencies and hence apply the accent more flexibly in places. Use any RGB color picker to find the value for any given color and enter it. **This import line and variable should always be last**.
 ```css
 @import url('https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css');
 :root {--accent: R, G, B;}
+```
+
+### Modify rounding
+
+By adding this variable at the bottom, after the import lines, the rounding can be removed, reduced or increased. **Variables should always be last**.
+```css
+:root {--rounding: 5px;}
 ```
 
 ## Screenshots
