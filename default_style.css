@@ -398,7 +398,6 @@
 .paper-icon-button-light,
 .innerCardFooter,
 .blurhash-canvas,
-.actionSheetMenuItem:hover,
 .dialog,
 .countIndicator,
 .playedIndicator,
@@ -494,9 +493,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   right: 0.3em; 
   top: 0.3em;
 }
-.paper-icon-button-light:hover {
-  background-color: rgba(0,0,0,0);
-}
+
 @media all and (min-width: 70em){
   .cardOverlayFab-primary {
     background-color: #00000000;
