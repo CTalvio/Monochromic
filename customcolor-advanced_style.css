@@ -58,7 +58,9 @@ progress::-webkit-progress-value {
 .emby-tab-button:hover,
 .selectLabelFocused,
 .inputLabelFocused,
-.textareaLabelFocused {
+.textareaLabelFocused
+.buttonActive,
+.button-link {
   color: rgba(var(--accent)) !important;
 }
 
