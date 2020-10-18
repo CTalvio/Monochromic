@@ -88,10 +88,8 @@ progress::-webkit-progress-value {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(var(--accent)) !important;
-  border-radius: var(--rounding);
+  background: rgba(var(--accent),0.8) !important;
 }
-
 * {
-  scrollbar-color: rgba(var(--accent)) #0000 !important;
+  scrollbar-color: rgba(var(--accent),0.8) #0000 !important;
 }
