@@ -747,12 +747,19 @@ a[data-role="button"] {
 .mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
 .mdl-spinner__layer-4 {border-color: rgba(0, 0, 0, 1);}
 
-.mainDrawer-scrollContainer,
-.formDialogContent.smoothScrollY {
-  scrollbar-color: #101010 #0000 !important;
+::-webkit-scrollbar-track-piece {
+  background-color: #0000;
 }
-.layout-desktop {
-  scrollbar-color: rgba(255, 255, 255, 0.22) #0000;
+::-webkit-scrollbar-corner {
+  background-color: #0000;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(120,120,120,0.6) !important;
+  border-radius: var(--rounding);
+}
+
+* {
+  scrollbar-color: rgba(120,120,120,0.6) #0000 !important;
 }
 
 .defaultCardBackground1 {
