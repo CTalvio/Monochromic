@@ -553,12 +553,12 @@ fieldset {
 progress {
   background: rgba(0, 0, 0, 0.5) !important;
   border-radius: var(--rounding);
-  border: 0.01em solid rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.22);
 }
 progress::-webkit-progress-bar {
   background: rgba(0, 0, 0, 0.5) !important;
   border-radius: var(--rounding);
-  border: 0.01em solid rgba(255, 255, 255, 0.22);
+  border: 0px solid rgba(255, 255, 255, 0.22);
 }
 progress::-moz-progress-bar {
   background-color: rgba(255,255,255,0.75);
@@ -578,7 +578,7 @@ progress::-webkit-progress-value {
 }
 .taskProgressOuter {
   background: rgba(0, 0, 0, 0.5) !important;
-  border: 0.01em solid rgba(255, 255, 255, 0.22);
+  border: 1px solid rgba(255, 255, 255, 0.22);
 }
 .taskProgressInner {
   background: rgba(255,255,255,0.75) !important;
