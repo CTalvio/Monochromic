@@ -84,5 +84,14 @@ progress::-webkit-progress-value {
   background: rgba(var(--accent), 0.5);
 }
 .mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
-    background: rgba(var(--accent));
+  background: rgba(var(--accent));
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(var(--accent)) !important;
+  border-radius: var(--rounding);
+}
+
+* {
+  scrollbar-color: rgba(var(--accent)) #0000 !important;
 }
