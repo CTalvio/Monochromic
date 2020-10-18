@@ -635,7 +635,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 .emby-tab-button:hover,
 .selectLabelFocused,
 .inputLabelFocused,
-.textareaLabelFocused {
+.textareaLabelFocused,
+.textareaLabelFocused,
+.buttonActive,
+.button-link{
   color: rgba(120, 120, 120, 0.6) !important;
 }
 
