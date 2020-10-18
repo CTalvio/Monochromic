@@ -18,14 +18,14 @@ a[data-role="button"]:hover {
 .playbackProgress>div {
   background-color: rgba(var(--accent),0.75);
 }
-progress::-webkit-progress-bar {
-  background: rgba(var(--accent),0.75);
-}
 progress::-moz-progress-bar {
   background-color: rgba(var(--accent),0.75);
 }
 progress::-webkit-progress-value {
   background-color: rgba(var(--accent),0.75);
+}
+.taskProgressInner {
+  background: rgba(var(--accent),0.75) !important;
 }
 
 .transcodingProgress>div, 
@@ -77,4 +77,12 @@ progress::-webkit-progress-value {
   border: 0.01em solid rgba(var(--accent),0.5) !important;
 }
 
-.mdl-spinner__layer-1 {border-color: rgba(var(--accent));}
+.mdl-spinner__layer-1 {
+  border-color: rgba(var(--accent));
+}
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
+  background: rgba(var(--accent), 0.5);
+}
+.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
+    background: rgba(var(--accent));
+}
