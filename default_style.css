@@ -665,6 +665,8 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   color: rgba(120, 120, 120, 0.6) !important;
 }
 
+#itemDetailPage .button-link {color: inherit !important;}
+
 .listItemIcon,
 .cardImage,
 .blurhashed {
