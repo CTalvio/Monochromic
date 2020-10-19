@@ -64,6 +64,8 @@ progress::-webkit-progress-value {
   color: rgba(var(--accent)) !important;
 }
 
+#itemDetailPage .button-link {color: inherit !important;}
+
 .navMenuOption:hover,
 .actionSheetMenuItem:hover {
   background-color: rgba(var(--accent),0.5) !important;
