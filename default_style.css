@@ -150,6 +150,10 @@
 }
 
 /*Tweak series/movie/album title screen*/
+.detailImageContainer .card {
+  position:fixed;
+}
+
 .mainDetailButtons {
 	font-size: 120%;
 }
