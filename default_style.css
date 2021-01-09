@@ -654,11 +654,14 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   background: #101010 !important;
 }
 
+.ratingbutton-icon-withrating{
+  color: rgba(255, 0, 0, 0.6) !important;
+}
+
 .paper-icon-button-light:hover,
 .raised.homeLibraryButton:hover,
 .button-flat:hover,
 .playstatebutton-icon-played,
-.ratingbutton-icon-withrating,
 .paper-icon-button-light:hover:not(:disabled),
 .emby-tab-button:hover,
 .selectLabelFocused,
