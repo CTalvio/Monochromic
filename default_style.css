@@ -649,6 +649,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   background: rgba(0,0,0,.7) !important;
 }
 
+.nowPlayingPageImage {
+  border: none;
+}
+
 /*Theme buttons and cards*/
 .navMenuOption-selected,
 .selectionCommandsPanel {
