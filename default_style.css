@@ -417,6 +417,7 @@
 .emby-input, 
 .emby-textarea, 
 .emby-select-withcolor,
+.nowPlayingPageImage,
 .cardOverlayButtonIcon {
   border-radius: var(--rounding) !important;
 }
