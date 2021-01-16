@@ -495,7 +495,8 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /*Accommodate mobile and set positions, I think*/
-.cardIndicators {
+.cardIndicators,
+.listItemIndicators {
   right: 0.3em; 
   top: 0.3em;
 }
@@ -652,6 +653,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .nowPlayingPageImage {
   border: none;
+}
+
+.upNextDialog-countdownText {
+  color: rgba(120, 120, 120, 0.6);
 }
 
 /*Theme buttons and cards*/
