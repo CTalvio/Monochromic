@@ -418,6 +418,7 @@
 .emby-textarea, 
 .emby-select-withcolor,
 .nowPlayingPageImage,
+.upNextDialog-poster-img,
 .cardOverlayButtonIcon {
   border-radius: var(--rounding) !important;
 }
