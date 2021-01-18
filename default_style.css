@@ -607,6 +607,19 @@ progress::-webkit-progress-value {
 }
 
 /*Color theming*/
+
+/*Theme process progress ring*/
+.progressring-spiner {
+  border-color: rgba(var(--accent));
+  border-width: .35em;
+}
+.progressring {
+    margin: .4em;
+}
+.progressring-bg {
+   display: none;
+}
+
 /*Affects blurhash to remove the saturated colors to fit overall look*/
 .blurhash-canvas {
 	filter: opacity(60%) saturate(60%);
@@ -728,6 +741,19 @@ a[data-role="button"] {
 .formDialogFooter.formDialogFooter-clear.formDialogFooter-flex,
 .collapseContent {
   background-color: #0000 !important;
+}
+
+/*Improve some menu alignments*/
+.formDialogContent {
+    margin-bottom: 6.2em;
+}
+.dialogContentInner {
+    padding: .5em 1em 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+.listItem-indexnumberleft {
+    margin: 1em;
 }
 
 /*Tweak entry fields, checkamarks*/
