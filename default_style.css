@@ -521,6 +521,15 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
   }
 }
 
+/*ANIMATIONS*/
+/*Fade as images load*/
+.blurhash-canvas {
+    transition: 0.2s;
+}
+.cardImageContainer {
+    transition: 0.7s;
+}
+
 /*Hover background for buttons*/
 .button-flat:hover {
 	background: rgba(0,0,0,0.4);
