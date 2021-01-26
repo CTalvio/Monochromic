@@ -754,15 +754,18 @@ a[data-role="button"] {
 
 /*Improve some menu alignments*/
 .formDialogContent {
-    margin-bottom: 6.2em;
+  margin-bottom: 6.2em;
 }
 .dialogContentInner {
-    padding: .5em 1em 1em;
-    padding-right: 1em;
-    padding-left: 1em;
+  padding: .5em 1em 1em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 .listItem-indexnumberleft {
-    margin: 1em;
+  margin: 1em;
+}
+.listItem {
+  padding-left: 1em;
 }
 
 /*Tweak entry fields, checkamarks*/
