@@ -1,3 +1,6 @@
+:root {--accent: 255, 255, 255;}
+:root {--rounding: 0px;}
+
 .cardImageContainer, .raised {
     box-shadow: -2px -2px 4px 0 rgb(255, 255, 255, 0.6), 2px 2px 4px 0 rgba(0,0,0,.2) !important;
 }
