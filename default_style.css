@@ -669,9 +669,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 .iconOsdProgressInner {
   background: rgb(255, 255, 255);
 }
-.osdHeader {
-  background: rgba(0,0,0,.7) !important;
-}
+
 
 .nowPlayingPageImage {
   border: none;
