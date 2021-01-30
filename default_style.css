@@ -670,6 +670,9 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   background: rgb(255, 255, 255);
 }
 
+.osdHeader {
+  linear-gradient(180deg,rgba(16,16,16,.75),rgba(16,16,16,0));
+}
 
 .nowPlayingPageImage {
   border: none;
