@@ -540,6 +540,10 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /*Some themeing for the dashboard*/
+.visualCardBox {
+  box-shadow: none;
+}
+
 .mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
     background: rgba(120, 120, 120, 0.6);
 }
