@@ -464,10 +464,22 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	margin-top: .2em !important;
 	margin-bottom: .2em !important;
 }
+.sectionTitleTextButton > .material-icons {
+    margin: 0;
+}
+
 /*Fix the UI shifting around*/
 .nowPlayingBarCurrentTime {
     width: 6em;
 }
+.osdTextContainer {
+    margin: 0 !important;
+    margin-top: 0.2em !important;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+    width: 2.5em;
+}
+
 /*Fix top right user icon when using a profile image*/
 .headerUserButtonRound {
   border-radius: 50px !important;
