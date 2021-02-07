@@ -696,16 +696,12 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     height: 5em;
 }
 
-#videoOsdPage span {
-	color:white;
-}
-
 .nowPlayingPageImage {
   border: none;
 }
 
 .upNextDialog-countdownText {
-  color: rgba(120, 120, 120, 0.6);
+  color: white;
 }
 
 /*Theme buttons and cards*/
