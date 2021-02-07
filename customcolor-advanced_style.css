@@ -66,8 +66,6 @@ progress::-webkit-progress-value {
 
 #itemDetailPage .button-link {color: inherit !important;}
 
-#videoOsdPage span {color: rgba(var(--accent))}
-
 .navMenuOption:hover,
 .actionSheetMenuItem:hover {
   background-color: rgba(var(--accent),0.5) !important;
