@@ -379,6 +379,7 @@
 .cardOverlayContainer {
 	border-radius: var(--rounding) !important;
 }
+.primaryImageWrapper > img,
 .toast,
 .paperList,
 .cardContent,
