@@ -696,6 +696,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
     height: 5em;
 }
 
+#videoOsdPage span {
+	color:white;
+}
+
 .nowPlayingPageImage {
   border: none;
 }
