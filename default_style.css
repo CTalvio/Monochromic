@@ -794,13 +794,13 @@ a[data-role="button"] {
 /*Tweak entry fields, checkamarks*/
 .emby-input,
 .emby-textarea {
-  padding: .4em .4em;
+  padding: .4em .55em;
 }
 .emby-select {
-  padding: .4em 1.9em .4em .4em;
+  padding: .35em 1.9em .35em .35em;
 }
 .selectArrow {
-    margin-top: 1.1em;
+    margin-top: 1.05em;
 }
 .checkboxOutline,
 .emby-input,
