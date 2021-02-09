@@ -244,6 +244,13 @@
   .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
 }
 
+.missingIndicator, .unairedIndicator {
+    background: #ae3030eb;
+    padding: .3em .6em;
+    border-radius: var(--rounding);
+    color: #fff;
+}
+
 /*Banner transparency*/
 #dashboardPage,
 #dashboardGeneralPage,
@@ -665,11 +672,16 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 /*Rating star, normally yellow*/
 .starIcon {
-  color: white;
+    color: rgba(255,255,255,.8);
 }
 
 
 /*Theme media player*/
+.osdPositionText, .osdDurationText {
+    width: 3.4em;
+    display: block;
+    text-align: center;
+}
 .osdTitle {
   margin-left: 0.5em;
 }
