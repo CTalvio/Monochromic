@@ -477,7 +477,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     margin-top: 0.2em !important;
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
-    width: 2.5em;
 }
 
 /*Fix top right user icon when using a profile image*/
@@ -671,6 +670,9 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 
 /*Theme media player*/
+.osdTitle {
+  margin-left: 0.5em;
+}
 .mdl-slider-background-lower {
   background-color: rgb(255, 255, 255);
 }
@@ -689,7 +691,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 .videoOsdBottom {
     background: rgba(0,0,0,.7);
-    padding-top: 0;
+    padding-top: 1em;
 }
 .skinHeader-withBackground.osdHeader {
     background: rgba(0,0,0,.7) !important;
