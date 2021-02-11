@@ -680,7 +680,7 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 
 /*Theme media player*/
-.osdPositionText, .osdDurationText {
+.startTimeText, .endTimeText {
     width: 3.4em;
     display: block;
     text-align: center;
