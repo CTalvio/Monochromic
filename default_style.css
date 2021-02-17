@@ -562,7 +562,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /*Some themeing for the dashboard*/
-.visualCardBox {
+.visualCardBox, .cardImageContainer {
   box-shadow: none;
 }
 
