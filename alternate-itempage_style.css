@@ -9,3 +9,6 @@
   padding-bottom: .5em;
   background: rgba(0,0,0,.2) !important;
 }
+.detailImageContainer .card.backdropCard {
+    top: 40vh;
+}
