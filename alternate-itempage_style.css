@@ -12,3 +12,7 @@
 .detailImageContainer .card.backdropCard {
     top: 40vh;
 }
+
+.itemBackdrop::after {
+  background: rgba(0,0,0,.2);
+}
