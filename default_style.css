@@ -737,6 +737,9 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
   color: white;
 }
 
+
+
+/*Theme syncplay*/
 .syncPlayIconCircle {
   color: rgba(255,255,255,1) !important;
   text-shadow: none !important;
@@ -746,92 +749,92 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
  0% {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,.7);
-  background:rgba(120,120,120,.3);
-  box-shadow:0 0 0 0 rgba(120,120,120,.3)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,.3)
  }
  70% {
   -webkit-transform:scale(1);
   transform:scale(1);
-  color:rgba(120,120,120,0);
-  background:rgba(120,120,120,0);
-  box-shadow:0 0 0 60px rgba(120,120,120,0)
+  color:rgba(0,0,0,.6);
+  background:rgba(0,0,0,0);
+  box-shadow:0 0 0 60px rgba(0,0,0,0)
  }
  to {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,0);
-  background:rgba(120,120,120,0);
-  box-shadow:0 0 0 0 rgba(120,120,120,0)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,0)
  }
 }
 @keyframes pulse {
  0% {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,.7);
-  background:rgba(120,120,120,.3);
-  box-shadow:0 0 0 0 rgba(120,120,120,.3)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,.3)
  }
  70% {
   -webkit-transform:scale(1);
   transform:scale(1);
-  color:rgba(120,120,120,0);
-  background:rgba(120,120,120,0);
-  box-shadow:0 0 0 60px rgba(120,120,120,0)
+  color:rgba(0,0,0,.6);
+  background:rgba(0,0,0,0);
+  box-shadow:0 0 0 60px rgba(0,0,0,0)
  }
  to {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,0);
-  background:rgba(120,120,120,0);
-  box-shadow:0 0 0 0 rgba(120,120,120,0)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,0)
  }
 }
 @-webkit-keyframes infinite-pulse {
  0% {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,.7);
-  background:rgba(120,120,120,.3);
-  box-shadow:0 0 0 0 rgba(120,120,120,.3)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,.3)
  }
  70% {
   -webkit-transform:scale(1);
   transform:scale(1);
-  color:rgba(120,120,120,.6);
-  background:rgba(120,120,120,0);
-  box-shadow:0 0 0 60px rgba(120,120,120,0)
+  color:rgba(0,0,0,.6);
+  background:rgba(0,0,0,0);
+  box-shadow:0 0 0 60px rgba(0,0,0,0)
  }
  to {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,.7);
-  background:rgba(120,120,120,.3);
-  box-shadow:0 0 0 0 rgba(120,120,120,0)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,0)
  }
 }
 @keyframes infinite-pulse {
  0% {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,.7);
-  background:rgba(120,120,120,.3);
-  box-shadow:0 0 0 0 rgba(120,120,120,.3)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,.3)
  }
  70% {
   -webkit-transform:scale(1);
   transform:scale(1);
-  color:rgba(120,120,120,.6);
-  background:rgba(120,120,120,0);
-  box-shadow:0 0 0 60px rgba(120,120,120,0)
+  color:rgba(0,0,0,.6);
+  background:rgba(0,0,0,0);
+  box-shadow:0 0 0 60px rgba(0,0,0,0)
  }
  to {
   -webkit-transform:scale(.95);
   transform:scale(.95);
-  color:rgba(120,120,120,.7);
-  background:rgba(120,120,120,.3);
-  box-shadow:0 0 0 0 rgba(120,120,120,0)
+  color:rgba(0,0,0,.7);
+  background:rgba(0,0,0,.3);
+  box-shadow:0 0 0 0 rgba(0,0,0,0)
  }
 }
 
