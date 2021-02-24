@@ -1,0 +1,28 @@
+.layout-mobile .detailPageWrapperContainer {
+    margin-top: 0em;
+    z-index: 0;
+}
+.layout-mobile .detailPagePrimaryContainer {
+    z-index: -1;
+}
+.layout-mobile .primaryImageWrapper {
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+.mainDetailButtons {
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -.5em;
+  margin-right: -.5em;
+}
+.layout-mobile .infoText {
+    z-index: 1;
+}
+.layout-mobile .primaryImageWrapper > img {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    filter: blur(60px) saturate(200%) contrast(160%) brightness(25%);
+}
