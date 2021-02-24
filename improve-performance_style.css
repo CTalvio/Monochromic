@@ -11,7 +11,12 @@
 #logPage,
 #notificationSettingsPage,
 #scheduledTasksPage,
-#itemDetailPage {
+#itemDetailPage,
+#userImagePage,
+#displayPreferencesPage,
+#homeScreenPreferencesPage,
+#languagePreferencesPage,
+#quickConnectPreferencesPage {
   margin-top: 60px;
     padding-top: 0px !important;
   overflow: scroll;
