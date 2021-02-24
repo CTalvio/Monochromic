@@ -67,9 +67,17 @@ Don't like my transparent view progress overlay? Use this to go back to the old 
 @import url('https://ctalvio.github.io/Monochromic/bottom-progress_style.css');
 ```
 
+### Backdrop on mobile for 10.7.0
+
+This add-on turns the cover image on the mobile item page into a backdrop, since mobile on 10.7.0 has no backdrop for library items on mobile.
+
+```css
+@import url('https://ctalvio.github.io/Monochromic/backdrop-hack_style.css');
+```
+
 ### Define your own accent color
 
-**UPDATED**: This now uses a single RGB value in a variable. This lets me use the color at various transparencies and hence apply the accent more flexibly in places. Use any RGB color picker to find the value for any given color and enter it. **This import line and variable should always be last**.
+This now uses a single RGB value in a variable. This lets me use the color at various transparencies and hence apply the accent more flexibly in places. Use any RGB color picker to find the value for any given color and enter it. **This import line and variable should always be last**.
 ```css
 @import url('https://ctalvio.github.io/Monochromic/customcolor-advanced_style.css');
 :root {--accent: R, G, B;}
