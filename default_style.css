@@ -467,13 +467,13 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	border-bottom-right-radius: var(--rounding);
 	border-top-right-radius: var(--rounding);
 }
-#dashboardPage .cardContent, .sessionNowPlayingInnerContent {
+#dashboardPage .cardContent, #dashboardPage .sessionNowPlayingInnerContent {
     border-radius: var(--rounding) var(--rounding) 0 0 !important;
 }
 #divVirtualFolders .cardImageContainer {
     border-radius: var(--rounding) var(--rounding) 0 0 !important;
 }
-#userProfilesPage .cardImage, .cardContent {
+#userProfilesPage .cardImage, #userProfilesPage .cardContent {
     border-radius: var(--rounding) var(--rounding) 0 0 !important;
 }
 
