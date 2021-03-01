@@ -467,6 +467,15 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 	border-bottom-right-radius: var(--rounding);
 	border-top-right-radius: var(--rounding);
 }
+#dashboardPage .cardContent, .sessionNowPlayingInnerContent {
+    border-radius: var(--rounding) var(--rounding) 0 0 !important;
+}
+#divVirtualFolders .cardImageContainer {
+    border-radius: var(--rounding) var(--rounding) 0 0 !important;
+}
+#userProfilesPage .cardImage, .cardContent {
+    border-radius: var(--rounding) var(--rounding) 0 0 !important;
+}
 
 /*Homepage modifications, transparent footerplayer and fixed sectiontitles*/
 .appfooter {
@@ -578,6 +587,13 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /*Some themeing for the dashboard*/
+.navMenuOptionText {
+    margin-top: 0;
+}
+.backgroundProgress > div {
+    background-color: #0000;
+}
+
 .visualCardBox, .cardImageContainer {
   box-shadow: none;
 }
