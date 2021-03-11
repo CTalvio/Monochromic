@@ -587,6 +587,10 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /*Some themeing for the dashboard*/
+
+.infoBanner {
+    background: #101010;
+}
 .navMenuOptionText {
     margin-top: 0;
 }
