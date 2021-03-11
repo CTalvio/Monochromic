@@ -881,6 +881,10 @@ div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
 
 #itemDetailPage .button-link {color: inherit !important;}
 
+.listItemIcon {
+    background: #0000 !important;
+}
+
 .raised,
 .fab,
 a[data-role="button"] {
