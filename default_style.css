@@ -470,7 +470,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 #dashboardPage .cardContent, #dashboardPage .sessionNowPlayingInnerContent {
     border-radius: var(--rounding) var(--rounding) 0 0 !important;
 }
-#divVirtualFolders .cardImageContainer {
+#divVirtualFolders .cardImageContainer, #divVirtualFolders .cardContent {
     border-radius: var(--rounding) var(--rounding) 0 0 !important;
 }
 #userProfilesPage .cardImage, #userProfilesPage .cardContent {
