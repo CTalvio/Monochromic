@@ -443,6 +443,7 @@
 .emby-select-withcolor,
 .nowPlayingPageImage,
 .upNextDialog-poster-img,
+.upNextContainer,
 .cardOverlayButtonIcon {
   border-radius: var(--rounding) !important;
 }
@@ -587,6 +588,15 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 /*Some themeing for the dashboard*/
+
+#user_usage_report_table,
+.detailTable {
+    background: rgba(0,0,0,.5);
+    border-radius: var(--rounding);
+}
+.detailTableBodyRow-shaded {
+    background: #0000 !important;
+}
 
 .infoBanner {
     background: #101010;
