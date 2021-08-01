@@ -1,5 +1,5 @@
 # Monochromic - deprecated
-### Superseded by the new [Ultrachromic](https://github.com/CTalvio/Kaleidochromic) theme
+### Superseded by the new [Ultrachromic](https://github.com/CTalvio/Ultrachromic) theme
 
 A custom theme for Jellyfin mediaserver created using CSS overrides. Note that I maintain this theme to be compatible with whatever version of Jellyfin I am currently using. Which is usually the latest stable release. You can therefore assume that using the theme on older versions may not work, but also that if a new release breaks something, that I will fix it. If you encounter unthemed elements or something broken, open an issue.
 
